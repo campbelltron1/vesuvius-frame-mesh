@@ -194,7 +194,4 @@ The command caps numerical libraries at two threads and writes
   `@kadenpool`, established the practical ink-reading cost of the wrong-frame
   choice and supplied the benchmark assets. `@nerln` independently reproduced
   its native-frame arm.
-- The resolver, verifier, protocol tests, and release hardening were developed
-  by Ryan Campbell (`@campbelltron1`) with OpenAI Codex assistance.
-
 Released under the MIT License.
