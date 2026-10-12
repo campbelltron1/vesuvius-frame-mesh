@@ -1,0 +1,5646 @@
+{
+  "bucket_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com",
+  "by_scroll": {
+    "PHerc0172": {
+      "dotted_target_meshes": 106,
+      "exact_total": 53,
+      "mesh_errors": 0,
+      "status_counts": {
+        "error": 0,
+        "exact_other": 0,
+        "exact_target": 53,
+        "unresolved": 0
+      },
+      "surface_volumes": 53
+    },
+    "PHerc0800": {
+      "dotted_target_meshes": 6,
+      "exact_total": 6,
+      "mesh_errors": 0,
+      "status_counts": {
+        "error": 0,
+        "exact_other": 0,
+        "exact_target": 6,
+        "unresolved": 0
+      },
+      "surface_volumes": 6
+    },
+    "PHerc1447": {
+      "dotted_target_meshes": 15,
+      "exact_total": 15,
+      "mesh_errors": 0,
+      "status_counts": {
+        "error": 0,
+        "exact_other": 0,
+        "exact_target": 15,
+        "unresolved": 0
+      },
+      "surface_volumes": 15
+    }
+  },
+  "generated_at_utc": "2026-10-09T12:29:45.457591+00:00",
+  "git_sha": "d90549a9535d12fb413ae9e743ad9c3870c2b08b",
+  "method": "public-listings-json-and-tiff-ifd-only",
+  "network": {
+    "budget_bytes": 262144000,
+    "cache_hit_bytes": 1400264,
+    "cache_hit_count": 1770,
+    "downloaded_bytes": 0,
+    "max_response_bytes": 8388608,
+    "request_attempts": 3,
+    "request_count": 0
+  },
+  "schema_version": 1,
+  "scrolls": [
+    "PHerc0172",
+    "PHerc0800",
+    "PHerc1447"
+  ],
+  "segments": [
+    {
+      "meshes": [
+        {
+          "dir": "20250917143559-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            630,
+            687
+          ]
+        },
+        {
+          "dir": "20250917143559-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            630,
+            687
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            631,
+            709
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            630,
+            687
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250917143559-w062_20250917143559205_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250917143559-on-20241024131838-7.91um.tifxyz",
+            "20250917143559-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250917143559-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12600,
+            13740
+          ],
+          "reference_shape": [
+            12600,
+            13740
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250917143559-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926112011-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            685,
+            625
+          ]
+        },
+        {
+          "dir": "20250926112011-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            685,
+            625
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            695,
+            629
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            685,
+            625
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926112011-w078_20250926112011918_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926112011-on-20241024131838-7.91um.tifxyz",
+            "20250926112011-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926112011-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            13700,
+            12500
+          ],
+          "reference_shape": [
+            13700,
+            12500
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926112011-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926113336-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            726,
+            819
+          ]
+        },
+        {
+          "dir": "20250926113336-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            726,
+            819
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            731,
+            794
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            726,
+            819
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926113336-w079_20250926113336891_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926113336-on-20241024131838-7.91um.tifxyz",
+            "20250926113336-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926113336-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            14520,
+            16380
+          ],
+          "reference_shape": [
+            14520,
+            16380
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926113336-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926114310-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            624,
+            571
+          ]
+        },
+        {
+          "dir": "20250926114310-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            624,
+            571
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            642,
+            578
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            624,
+            571
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926114310-w080_20250926114310705_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926114310-on-20241024131838-7.91um.tifxyz",
+            "20250926114310-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926114310-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12480,
+            11420
+          ],
+          "reference_shape": [
+            12480,
+            11420
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926114310-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926122938-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            716,
+            576
+          ]
+        },
+        {
+          "dir": "20250926122938-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            716,
+            576
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            721,
+            587
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            716,
+            576
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926122938-w082_20250926122938619_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926122938-on-20241024131838-7.91um.tifxyz",
+            "20250926122938-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926122938-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            14320,
+            11520
+          ],
+          "reference_shape": [
+            14320,
+            11520
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926122938-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926132117-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            697,
+            581
+          ]
+        },
+        {
+          "dir": "20250926132117-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            697,
+            581
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            696,
+            592
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            697,
+            581
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926132117-w083_20250926132117595_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926132117-on-20241024131838-7.91um.tifxyz",
+            "20250926132117-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926132117-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            13940,
+            11620
+          ],
+          "reference_shape": [
+            13940,
+            11620
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926132117-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926145427-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            483,
+            601
+          ]
+        },
+        {
+          "dir": "20250926145427-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            483,
+            601
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            498,
+            604
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            483,
+            601
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926145427-w084_20250926145427439_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926145427-on-20241024131838-7.91um.tifxyz",
+            "20250926145427-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926145427-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            9660,
+            12020
+          ],
+          "reference_shape": [
+            9660,
+            12020
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926145427-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926150345-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            623,
+            485
+          ]
+        },
+        {
+          "dir": "20250926150345-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            623,
+            485
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            631,
+            484
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            623,
+            485
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926150345-w086_20250926150345176_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926150345-on-20241024131838-7.91um.tifxyz",
+            "20250926150345-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926150345-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12460,
+            9700
+          ],
+          "reference_shape": [
+            12460,
+            9700
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926150345-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250926153406-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            728,
+            625
+          ]
+        },
+        {
+          "dir": "20250926153406-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            728,
+            625
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            812,
+            747
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            728,
+            625
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20250926153406-w088_20250926153406704_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250926153406-on-20241024131838-7.91um.tifxyz",
+            "20250926153406-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250926153406-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            14560,
+            12500
+          ],
+          "reference_shape": [
+            14560,
+            12500
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20250926153406-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251106133152-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            797,
+            590
+          ]
+        },
+        {
+          "dir": "20251106133152-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            797,
+            590
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            817,
+            597
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            797,
+            590
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251106133152-w077_20251106133152767_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251106133152-on-20241024131838-7.91um.tifxyz",
+            "20251106133152-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251106133152-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            15940,
+            11800
+          ],
+          "reference_shape": [
+            15940,
+            11800
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251106133152-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251106170358-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            673,
+            608
+          ]
+        },
+        {
+          "dir": "20251106170358-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            673,
+            608
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            682,
+            615
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            673,
+            608
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251106170358-w076_20251106170358232_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251106170358-on-20241024131838-7.91um.tifxyz",
+            "20251106170358-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251106170358-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            13460,
+            12160
+          ],
+          "reference_shape": [
+            13460,
+            12160
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251106170358-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251107063327-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            642,
+            704
+          ]
+        },
+        {
+          "dir": "20251107063327-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            642,
+            704
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            643,
+            726
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            642,
+            704
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251107063327-w063_20251107063327215_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251107063327-on-20241024131838-7.91um.tifxyz",
+            "20251107063327-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251107063327-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12840,
+            14080
+          ],
+          "reference_shape": [
+            12840,
+            14080
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251107063327-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251107110950-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            671,
+            747
+          ]
+        },
+        {
+          "dir": "20251107110950-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            671,
+            747
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            671,
+            770
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            671,
+            747
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251107110950-w064_20251107110950052_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251107110950-on-20241024131838-7.91um.tifxyz",
+            "20251107110950-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251107110950-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            13420,
+            14940
+          ],
+          "reference_shape": [
+            13420,
+            14940
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251107110950-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251107175958-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            602,
+            634
+          ]
+        },
+        {
+          "dir": "20251107175958-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            602,
+            634
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            598,
+            654
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            602,
+            634
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251107175958-w061_20251107175958270_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251107175958-on-20241024131838-7.91um.tifxyz",
+            "20251107175958-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251107175958-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12040,
+            12680
+          ],
+          "reference_shape": [
+            12040,
+            12680
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251107175958-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251109232817-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            759,
+            743
+          ]
+        },
+        {
+          "dir": "20251109232817-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            759,
+            743
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            814,
+            766
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            759,
+            743
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251109232817-w065_20251109232817724_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251109232817-on-20241024131838-7.91um.tifxyz",
+            "20251109232817-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251109232817-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            15180,
+            14860
+          ],
+          "reference_shape": [
+            15180,
+            14860
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251109232817-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251110110112-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            837,
+            749
+          ]
+        },
+        {
+          "dir": "20251110110112-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            837,
+            749
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            1005,
+            768
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            837,
+            749
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251110110112-w066_20251110110112608_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251110110112-on-20241024131838-7.91um.tifxyz",
+            "20251110110112-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251110110112-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            16740,
+            14980
+          ],
+          "reference_shape": [
+            16740,
+            14980
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251110110112-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251110135146-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            632,
+            484
+          ]
+        },
+        {
+          "dir": "20251110135146-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            632,
+            484
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            633,
+            471
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            632,
+            484
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251110135146-w085_20251110135146457_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251110135146-on-20241024131838-7.91um.tifxyz",
+            "20251110135146-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251110135146-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12640,
+            9680
+          ],
+          "reference_shape": [
+            12640,
+            9680
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251110135146-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251110135803-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            657,
+            743
+          ]
+        },
+        {
+          "dir": "20251110135803-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            657,
+            743
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            658,
+            766
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            657,
+            743
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251110135803-w067_20251110135803677_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251110135803-on-20241024131838-7.91um.tifxyz",
+            "20251110135803-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251110135803-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            13140,
+            14860
+          ],
+          "reference_shape": [
+            13140,
+            14860
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251110135803-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251111010954-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            654,
+            746
+          ]
+        },
+        {
+          "dir": "20251111010954-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            654,
+            746
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            655,
+            769
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            654,
+            746
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251111010954-w068_20251111010954408_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251111010954-on-20241024131838-7.91um.tifxyz",
+            "20251111010954-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251111010954-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            13080,
+            14920
+          ],
+          "reference_shape": [
+            13080,
+            14920
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251111010954-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251111151836-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            818,
+            873
+          ]
+        },
+        {
+          "dir": "20251111151836-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            818,
+            873
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            810,
+            876
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            818,
+            873
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251111151836-w069_20251111151836406_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251111151836-on-20241024131838-7.91um.tifxyz",
+            "20251111151836-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251111151836-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            16360,
+            17460
+          ],
+          "reference_shape": [
+            16360,
+            17460
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251111151836-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251111210734-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            646,
+            749
+          ]
+        },
+        {
+          "dir": "20251111210734-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            646,
+            749
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            645,
+            771
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            646,
+            749
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251111210734-w070_20251111210734722_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251111210734-on-20241024131838-7.91um.tifxyz",
+            "20251111210734-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251111210734-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12920,
+            14980
+          ],
+          "reference_shape": [
+            12920,
+            14980
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251111210734-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251112000002-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            621,
+            481
+          ]
+        },
+        {
+          "dir": "20251112000002-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            621,
+            481
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            625,
+            479
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            621,
+            481
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251112000002-w087_20251112000002214_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251112000002-on-20241024131838-7.91um.tifxyz",
+            "20251112000002-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251112000002-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12420,
+            9620
+          ],
+          "reference_shape": [
+            12420,
+            9620
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251112000002-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251112163527-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            645,
+            754
+          ]
+        },
+        {
+          "dir": "20251112163527-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            645,
+            754
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            641,
+            776
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            645,
+            754
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251112163527-w071_20251112163527854_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251112163527-on-20241024131838-7.91um.tifxyz",
+            "20251112163527-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251112163527-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12900,
+            15080
+          ],
+          "reference_shape": [
+            12900,
+            15080
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251112163527-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251113021010-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            638,
+            754
+          ]
+        },
+        {
+          "dir": "20251113021010-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            638,
+            754
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            636,
+            777
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            638,
+            754
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251113021010-w072_20251113021010674_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251113021010-on-20241024131838-7.91um.tifxyz",
+            "20251113021010-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251113021010-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12760,
+            15080
+          ],
+          "reference_shape": [
+            12760,
+            15080
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251113021010-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251113130119-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            636,
+            757
+          ]
+        },
+        {
+          "dir": "20251113130119-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            636,
+            757
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            633,
+            779
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            636,
+            757
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251113130119-w073_20251113130119516_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251113130119-on-20241024131838-7.91um.tifxyz",
+            "20251113130119-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251113130119-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12720,
+            15140
+          ],
+          "reference_shape": [
+            12720,
+            15140
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251113130119-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251113152136-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            634,
+            752
+          ]
+        },
+        {
+          "dir": "20251113152136-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            634,
+            752
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            629,
+            775
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            634,
+            752
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251113152136-w074_20251113152136889_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251113152136-on-20241024131838-7.91um.tifxyz",
+            "20251113152136-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251113152136-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12680,
+            15040
+          ],
+          "reference_shape": [
+            12680,
+            15040
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251113152136-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251113204233-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            629,
+            751
+          ]
+        },
+        {
+          "dir": "20251113204233-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            629,
+            751
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            623,
+            773
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            629,
+            751
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251113204233-w075_20251113204233755_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251113204233-on-20241024131838-7.91um.tifxyz",
+            "20251113204233-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251113204233-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12580,
+            15020
+          ],
+          "reference_shape": [
+            12580,
+            15020
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251113204233-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251114202035-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            588,
+            571
+          ]
+        },
+        {
+          "dir": "20251114202035-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            588,
+            571
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            591,
+            580
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            588,
+            571
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251114202035-w081_20251114202035261_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251114202035-on-20241024131838-7.91um.tifxyz",
+            "20251114202035-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251114202035-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            11760,
+            11420
+          ],
+          "reference_shape": [
+            11760,
+            11420
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251114202035-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002740-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            555,
+            2460
+          ]
+        },
+        {
+          "dir": "20251115002740-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            555,
+            2460
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            557,
+            2462
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            555,
+            2460
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002740-auto_grown_20251115002740308_0_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002740-on-20241024131838-7.91um.tifxyz",
+            "20251115002740-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002740-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            11100,
+            49200
+          ],
+          "reference_shape": [
+            11100,
+            49200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002740-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002741-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            629,
+            2815
+          ]
+        },
+        {
+          "dir": "20251115002741-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            629,
+            2815
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            631,
+            2817
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            629,
+            2815
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002741-auto_grown_20251115002740308_1_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002741-on-20241024131838-7.91um.tifxyz",
+            "20251115002741-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002741-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12580,
+            56300
+          ],
+          "reference_shape": [
+            12580,
+            56300
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002741-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002742-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            619,
+            2790
+          ]
+        },
+        {
+          "dir": "20251115002742-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            619,
+            2790
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            621,
+            2792
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            619,
+            2790
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002742-auto_grown_20251115002740308_2_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002742-on-20241024131838-7.91um.tifxyz",
+            "20251115002742-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002742-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12380,
+            55800
+          ],
+          "reference_shape": [
+            12380,
+            55800
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002742-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002743-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            648,
+            2878
+          ]
+        },
+        {
+          "dir": "20251115002743-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            648,
+            2878
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            650,
+            2880
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            648,
+            2878
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002743-auto_grown_20251115002740308_3_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002743-on-20241024131838-7.91um.tifxyz",
+            "20251115002743-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002743-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12960,
+            57560
+          ],
+          "reference_shape": [
+            12960,
+            57560
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002743-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002744-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            800,
+            2927
+          ]
+        },
+        {
+          "dir": "20251115002744-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            800,
+            2927
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            802,
+            2929
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            800,
+            2927
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002744-auto_grown_20251115002740308_4_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002744-on-20241024131838-7.91um.tifxyz",
+            "20251115002744-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002744-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            16000,
+            58540
+          ],
+          "reference_shape": [
+            16000,
+            58540
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002744-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002745-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            637,
+            3065
+          ]
+        },
+        {
+          "dir": "20251115002745-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            637,
+            3065
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            639,
+            3067
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            637,
+            3065
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002745-auto_grown_20251115002740308_5_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002745-on-20241024131838-7.91um.tifxyz",
+            "20251115002745-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002745-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12740,
+            61300
+          ],
+          "reference_shape": [
+            12740,
+            61300
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002745-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002746-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            558,
+            2777
+          ]
+        },
+        {
+          "dir": "20251115002746-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            558,
+            2777
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            560,
+            2779
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            558,
+            2777
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002746-auto_grown_20251115002740308_6_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002746-on-20241024131838-7.91um.tifxyz",
+            "20251115002746-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002746-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            11160,
+            55540
+          ],
+          "reference_shape": [
+            11160,
+            55540
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002746-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002747-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            612,
+            2817
+          ]
+        },
+        {
+          "dir": "20251115002747-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            612,
+            2817
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            614,
+            2819
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            612,
+            2817
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002747-auto_grown_20251115002740308_7_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002747-on-20241024131838-7.91um.tifxyz",
+            "20251115002747-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002747-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12240,
+            56340
+          ],
+          "reference_shape": [
+            12240,
+            56340
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002747-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251115002748-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            637,
+            1867
+          ]
+        },
+        {
+          "dir": "20251115002748-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            637,
+            1867
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            627,
+            1859
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            637,
+            1867
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251115002748-auto_grown_20251115002740308_8_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251115002748-on-20241024131838-7.91um.tifxyz",
+            "20251115002748-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251115002748-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12740,
+            37340
+          ],
+          "reference_shape": [
+            12740,
+            37340
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251115002748-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251203230500-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            646,
+            611
+          ]
+        },
+        {
+          "dir": "20251203230500-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            646,
+            611
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            660,
+            624
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            646,
+            611
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251203230500-w089_20251203230500465_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251203230500-on-20241024131838-7.91um.tifxyz",
+            "20251203230500-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251203230500-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12920,
+            12220
+          ],
+          "reference_shape": [
+            12920,
+            12220
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251203230500-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251204060522-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            643,
+            609
+          ]
+        },
+        {
+          "dir": "20251204060522-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            643,
+            609
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            654,
+            622
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            643,
+            609
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251204060522-w090_20251204060522416_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251204060522-on-20241024131838-7.91um.tifxyz",
+            "20251204060522-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251204060522-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12860,
+            12180
+          ],
+          "reference_shape": [
+            12860,
+            12180
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251204060522-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251204071911-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            639,
+            608
+          ]
+        },
+        {
+          "dir": "20251204071911-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            639,
+            608
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            652,
+            621
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            639,
+            608
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251204071911-w091_20251204071911070_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251204071911-on-20241024131838-7.91um.tifxyz",
+            "20251204071911-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251204071911-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            12780,
+            12160
+          ],
+          "reference_shape": [
+            12780,
+            12160
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251204071911-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251204101314-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            677,
+            628
+          ]
+        },
+        {
+          "dir": "20251204101314-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            677,
+            628
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            684,
+            640
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            677,
+            628
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251204101314-w092_20251204101314959_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251204101314-on-20241024131838-7.91um.tifxyz",
+            "20251204101314-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251204101314-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            13540,
+            12560
+          ],
+          "reference_shape": [
+            13540,
+            12560
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251204101314-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251204192708-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            753,
+            865
+          ]
+        },
+        {
+          "dir": "20251204192708-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            753,
+            865
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            747,
+            879
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            753,
+            865
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251204192708-w093_20251204192708445_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251204192708-on-20241024131838-7.91um.tifxyz",
+            "20251204192708-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251204192708-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            15060,
+            17300
+          ],
+          "reference_shape": [
+            15060,
+            17300
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251204192708-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251205115859-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            563,
+            520
+          ]
+        },
+        {
+          "dir": "20251205115859-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            563,
+            520
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            571,
+            530
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            563,
+            520
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251205115859-w094_20251205115859448_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251205115859-on-20241024131838-7.91um.tifxyz",
+            "20251205115859-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251205115859-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            11260,
+            10400
+          ],
+          "reference_shape": [
+            11260,
+            10400
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251205115859-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251206184729-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            724,
+            571
+          ]
+        },
+        {
+          "dir": "20251206184729-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            724,
+            571
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            728,
+            564
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            724,
+            571
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251206184729-w095_20251206184729906_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251206184729-on-20241024131838-7.91um.tifxyz",
+            "20251206184729-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251206184729-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            14480,
+            11420
+          ],
+          "reference_shape": [
+            14480,
+            11420
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251206184729-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251207123912-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            550,
+            578
+          ]
+        },
+        {
+          "dir": "20251207123912-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            550,
+            578
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            550,
+            578
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            546,
+            604
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251207123912-w060_20251207123912611_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251207123912-on-20241024131838-7.91um.tifxyz",
+            "20251207123912-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251207123912-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            11000,
+            11560
+          ],
+          "reference_shape": [
+            11000,
+            11560
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251207123912-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251210142414-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            476,
+            660
+          ]
+        },
+        {
+          "dir": "20251210142414-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            476,
+            660
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            473,
+            675
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            476,
+            660
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251210142414-w059_20251210142414060_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251210142414-on-20241024131838-7.91um.tifxyz",
+            "20251210142414-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251210142414-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            9520,
+            13200
+          ],
+          "reference_shape": [
+            9520,
+            13200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251210142414-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251210153304-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            546,
+            660
+          ]
+        },
+        {
+          "dir": "20251210153304-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            546,
+            660
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            547,
+            673
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            546,
+            660
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251210153304-w058_20251210153304503_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251210153304-on-20241024131838-7.91um.tifxyz",
+            "20251210153304-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251210153304-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            10920,
+            13200
+          ],
+          "reference_shape": [
+            10920,
+            13200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251210153304-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251210160810-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            544,
+            651
+          ]
+        },
+        {
+          "dir": "20251210160810-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            544,
+            651
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            546,
+            667
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            544,
+            651
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251210160810-w057_20251210160810301_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251210160810-on-20241024131838-7.91um.tifxyz",
+            "20251210160810-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251210160810-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            10880,
+            13020
+          ],
+          "reference_shape": [
+            10880,
+            13020
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251210160810-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251211095724-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            533,
+            645
+          ]
+        },
+        {
+          "dir": "20251211095724-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            533,
+            645
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            541,
+            660
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            533,
+            645
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251211095724-w056_20251211095724922_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251211095724-on-20241024131838-7.91um.tifxyz",
+            "20251211095724-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251211095724-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            10660,
+            12900
+          ],
+          "reference_shape": [
+            10660,
+            12900
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251211095724-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251211111451-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            537,
+            635
+          ]
+        },
+        {
+          "dir": "20251211111451-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            537,
+            635
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            538,
+            650
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            537,
+            635
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251211111451-w055_20251211111451620_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251211111451-on-20241024131838-7.91um.tifxyz",
+            "20251211111451-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251211111451-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            10740,
+            12700
+          ],
+          "reference_shape": [
+            10740,
+            12700
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251211111451-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251211135303-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            530,
+            626
+          ]
+        },
+        {
+          "dir": "20251211135303-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            530,
+            626
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            532,
+            640
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            530,
+            626
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251211135303-w054_20251211135303394_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251211135303-on-20241024131838-7.91um.tifxyz",
+            "20251211135303-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251211135303-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            10600,
+            12520
+          ],
+          "reference_shape": [
+            10600,
+            12520
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251211135303-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251211152543-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            530,
+            617
+          ]
+        },
+        {
+          "dir": "20251211152543-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            530,
+            617
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            531,
+            629
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            530,
+            617
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251211152543-w053_20251211152543204_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251211152543-on-20241024131838-7.91um.tifxyz",
+            "20251211152543-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251211152543-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            10600,
+            12340
+          ],
+          "reference_shape": [
+            10600,
+            12340
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251211152543-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251212105627-on-20241024131838-7.91um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            529,
+            610
+          ]
+        },
+        {
+          "dir": "20251212105627-on-20241024131839-7.91um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            529,
+            610
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            528,
+            621
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            529,
+            610
+          ]
+        }
+      ],
+      "segment": "PHerc0172/segments/20251212105627-w052_20251212105627148_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251212105627-on-20241024131838-7.91um.tifxyz",
+            "20251212105627-on-20241024131839-7.91um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251212105627-on-20241024131838-7.91um.tifxyz"
+          ],
+          "level0_shape": [
+            33,
+            10580,
+            12200
+          ],
+          "reference_shape": [
+            10580,
+            12200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "7.91um-53keV-volume-20241024131838.zarr",
+          "target_meshes": [
+            "20251212105627-on-20241024131838-7.91um.tifxyz"
+          ],
+          "volume_id": "20241024131838"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251028213516-on-20250521135224-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            108,
+            112
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            108,
+            112
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            122,
+            96
+          ]
+        }
+      ],
+      "segment": "PHerc0800/segments/20251028213516-auto_grown_20251028213516907",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251028213516-on-20250521135224-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251028213516-on-20250521135224-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            2160,
+            2240
+          ],
+          "reference_shape": [
+            2160,
+            2240
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521135224.zarr",
+          "target_meshes": [
+            "20251028213516-on-20250521135224-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521135224"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251028220042-on-20250521135224-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            102,
+            100
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            102,
+            100
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            93,
+            95
+          ]
+        }
+      ],
+      "segment": "PHerc0800/segments/20251028220042-auto_grown_20251028220042762",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251028220042-on-20250521135224-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251028220042-on-20250521135224-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            2040,
+            2000
+          ],
+          "reference_shape": [
+            2040,
+            2000
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521135224.zarr",
+          "target_meshes": [
+            "20251028220042-on-20250521135224-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521135224"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251028220955-on-20250521135224-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            105,
+            105
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            105,
+            105
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            90,
+            84
+          ]
+        }
+      ],
+      "segment": "PHerc0800/segments/20251028220955-auto_grown_20251028220955262",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251028220955-on-20250521135224-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251028220955-on-20250521135224-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            2100,
+            2100
+          ],
+          "reference_shape": [
+            2100,
+            2100
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521135224.zarr",
+          "target_meshes": [
+            "20251028220955-on-20250521135224-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521135224"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251028222030-on-20250521135224-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            129,
+            129
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            129,
+            129
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            156,
+            156
+          ]
+        }
+      ],
+      "segment": "PHerc0800/segments/20251028222030-auto_grown_20251028222030940",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251028222030-on-20250521135224-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251028222030-on-20250521135224-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            2580,
+            2580
+          ],
+          "reference_shape": [
+            2580,
+            2580
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521135224.zarr",
+          "target_meshes": [
+            "20251028222030-on-20250521135224-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521135224"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251028225813-on-20250521135224-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            115,
+            113
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            115,
+            113
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            138,
+            151
+          ]
+        }
+      ],
+      "segment": "PHerc0800/segments/20251028225813-auto_grown_20251028225813045",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251028225813-on-20250521135224-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251028225813-on-20250521135224-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            2300,
+            2260
+          ],
+          "reference_shape": [
+            2300,
+            2260
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521135224.zarr",
+          "target_meshes": [
+            "20251028225813-on-20250521135224-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521135224"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251029010146-on-20250521135224-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            49,
+            49
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            49,
+            49
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            42,
+            42
+          ]
+        }
+      ],
+      "segment": "PHerc0800/segments/20251029010146-auto_grown_20251029010146642",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251029010146-on-20250521135224-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20251029010146-on-20250521135224-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            980,
+            980
+          ],
+          "reference_shape": [
+            980,
+            980
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521135224.zarr",
+          "target_meshes": [
+            "20251029010146-on-20250521135224-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521135224"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502180708-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            133,
+            177
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            133,
+            177
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            109,
+            177
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502180708-auto_grown_20250502160708188",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502180708-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502180708-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            2660,
+            3540
+          ],
+          "reference_shape": [
+            2660,
+            3540
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502180708-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502180748-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            206,
+            112
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            206,
+            112
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            134,
+            183
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502180748-auto_grown_20250502160748721",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502180748-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502180748-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            4120,
+            2240
+          ],
+          "reference_shape": [
+            4120,
+            2240
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502180748-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502182142-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            188,
+            128
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            188,
+            128
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            118,
+            196
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502182142-auto_grown_20250502161324419",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502182142-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502182142-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            3760,
+            2560
+          ],
+          "reference_shape": [
+            3760,
+            2560
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502182142-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502182456-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            236,
+            162
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            236,
+            162
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            160,
+            232
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502182456-auto_grown_20250502161202782",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502182456-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502182456-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            4720,
+            3240
+          ],
+          "reference_shape": [
+            4720,
+            3240
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502182456-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502183138-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            161,
+            106
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            161,
+            106
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            94,
+            160
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502183138-auto_grown_20250502162038685",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502183138-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502183138-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            3220,
+            2120
+          ],
+          "reference_shape": [
+            3220,
+            2120
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502183138-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502183421-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            191,
+            193
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            191,
+            193
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            159,
+            220
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502183421-auto_grown_20250502161744358",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502183421-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502183421-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            3820,
+            3860
+          ],
+          "reference_shape": [
+            3820,
+            3860
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502183421-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502184201-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            179,
+            111
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            179,
+            111
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            113,
+            180
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502184201-auto_grown_20250502163549332",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502184201-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502184201-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            3580,
+            2220
+          ],
+          "reference_shape": [
+            3580,
+            2220
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502184201-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502184658-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            211,
+            143
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            211,
+            143
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            178,
+            208
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502184658-auto_grown_20250502163923577",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502184658-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502184658-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            4220,
+            2860
+          ],
+          "reference_shape": [
+            4220,
+            2860
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502184658-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502184845-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            231,
+            110
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            231,
+            110
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            142,
+            223
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502184845-auto_grown_20250502164121265",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502184845-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502184845-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            4620,
+            2200
+          ],
+          "reference_shape": [
+            4620,
+            2200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502184845-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502185519-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            160,
+            133
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            160,
+            133
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            160,
+            136
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502185519-auto_grown_20250502164303733",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502185519-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502185519-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            3200,
+            2660
+          ],
+          "reference_shape": [
+            3200,
+            2660
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502185519-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250502205333-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            188,
+            129
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            188,
+            129
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            129,
+            186
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250502205333-auto_grown_20250502181030065",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250502205333-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized"
+          ],
+          "exact_target_meshes": [
+            "20250502205333-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            3760,
+            2580
+          ],
+          "reference_shape": [
+            3760,
+            2580
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250502205333-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250702235910-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            149,
+            162
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            149,
+            162
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            156,
+            168
+          ]
+        },
+        {
+          "dir": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            149,
+            162
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250702235910-auto_grown_20250702235910292",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250702235910-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized",
+            "tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250702235910-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            2980,
+            3240
+          ],
+          "reference_shape": [
+            2980,
+            3240
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250702235910-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250703025628-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            205,
+            213
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            205,
+            213
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            202,
+            215
+          ]
+        },
+        {
+          "dir": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            205,
+            213
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250703025628-auto_grown_20250703025628283",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250703025628-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized",
+            "tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250703025628-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            4100,
+            4260
+          ],
+          "reference_shape": [
+            4100,
+            4260
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250703025628-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250703034159-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            181,
+            261
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            181,
+            261
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            185,
+            273
+          ]
+        },
+        {
+          "dir": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            181,
+            261
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20250703034159-auto_grown_20250703034159599",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250703034159-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized",
+            "tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250703034159-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            3620,
+            5220
+          ],
+          "reference_shape": [
+            3620,
+            5220
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20250703034159-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251105093211-on-20250521151220-8.64um.tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            682,
+            411
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            682,
+            411
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            212,
+            200
+          ]
+        },
+        {
+          "dir": "tifxyz",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            682,
+            411
+          ]
+        }
+      ],
+      "segment": "PHerc1447/segments/20251105093211-z_dbg_gen_00320",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251105093211-on-20250521151220-8.64um.tifxyz",
+            "intermediate/tifxyz_normalized",
+            "tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20251105093211-on-20250521151220-8.64um.tifxyz"
+          ],
+          "level0_shape": [
+            31,
+            13640,
+            8220
+          ],
+          "reference_shape": [
+            13640,
+            8220
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "8.64um-1.2m-116keV-volume-20250521151220.zarr",
+          "target_meshes": [
+            "20251105093211-on-20250521151220-8.64um.tifxyz"
+          ],
+          "volume_id": "20250521151220"
+        }
+      ]
+    },
+    {
+      "meshes": [],
+      "segment": "PHerc1447/segments/raw",
+      "surface_volumes": []
+    }
+  ],
+  "summary": {
+    "dotted_target_meshes": 127,
+    "exact_total": 74,
+    "mesh_errors": 0,
+    "status_counts": {
+      "error": 0,
+      "exact_other": 0,
+      "exact_target": 74,
+      "unresolved": 0
+    },
+    "surface_volumes": 74
+  }
+}

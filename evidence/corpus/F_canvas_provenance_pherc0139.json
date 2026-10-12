@@ -1,0 +1,6095 @@
+{
+  "bucket_url": "https://vesuvius-challenge-open-data.s3.amazonaws.com",
+  "by_scroll": {
+    "PHerc0139": {
+      "dotted_target_meshes": 189,
+      "exact_total": 114,
+      "mesh_errors": 0,
+      "status_counts": {
+        "error": 0,
+        "exact_other": 0,
+        "exact_target": 114,
+        "unresolved": 0
+      },
+      "surface_volumes": 114
+    }
+  },
+  "generated_at_utc": "2026-10-09T12:29:44.781841+00:00",
+  "git_sha": "d90549a9535d12fb413ae9e743ad9c3870c2b08b",
+  "method": "public-listings-json-and-tiff-ifd-only",
+  "network": {
+    "budget_bytes": 262144000,
+    "cache_hit_bytes": 1273161,
+    "cache_hit_count": 1676,
+    "downloaded_bytes": 0,
+    "max_response_bytes": 8388608,
+    "request_attempts": 3,
+    "request_count": 0
+  },
+  "schema_version": 1,
+  "scrolls": [
+    "PHerc0139"
+  ],
+  "segments": [
+    {
+      "meshes": [
+        {
+          "dir": "20250108000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            364,
+            340
+          ]
+        },
+        {
+          "dir": "20250108000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1421,
+            1329
+          ]
+        },
+        {
+          "dir": "20250108000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1416,
+            1324
+          ]
+        },
+        {
+          "dir": "20250108000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1421,
+            1329
+          ]
+        },
+        {
+          "dir": "20250108000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3012,
+            2817
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            354,
+            331
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            365,
+            348
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250108000000-w025_2025010863",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250108000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            30120,
+            28170
+          ],
+          "reference_shape": [
+            30120,
+            28170
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250108000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            28320,
+            26480
+          ],
+          "reference_shape": [
+            28320,
+            26480
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250108000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7280,
+            6800
+          ],
+          "reference_shape": [
+            7280,
+            6800
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250108000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250108000001-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            372,
+            366
+          ]
+        },
+        {
+          "dir": "20250108000001-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1453,
+            1428
+          ]
+        },
+        {
+          "dir": "20250108000001-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1448,
+            1424
+          ]
+        },
+        {
+          "dir": "20250108000001-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1453,
+            1428
+          ]
+        },
+        {
+          "dir": "20250108000001-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3080,
+            3030
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            362,
+            356
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1554,
+            1500
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250108000001-w026_2025010854",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250108000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            30800,
+            30300
+          ],
+          "reference_shape": [
+            30800,
+            30300
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250108000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            28960,
+            28480
+          ],
+          "reference_shape": [
+            28960,
+            28480
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250108000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7440,
+            7320
+          ],
+          "reference_shape": [
+            7440,
+            7320
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250108000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250108000002-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            366,
+            365
+          ]
+        },
+        {
+          "dir": "20250108000002-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1429,
+            1425
+          ]
+        },
+        {
+          "dir": "20250108000002-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1424,
+            1420
+          ]
+        },
+        {
+          "dir": "20250108000002-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1429,
+            1425
+          ]
+        },
+        {
+          "dir": "20250108000002-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3029,
+            3021
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            356,
+            355
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1717,
+            1663
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250108000002-w027_2025010845",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250108000002-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000002-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            30290,
+            30210
+          ],
+          "reference_shape": [
+            30290,
+            30210
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250108000002-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000002-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000002-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            28480,
+            28400
+          ],
+          "reference_shape": [
+            28480,
+            28400
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250108000002-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000002-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000002-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7320,
+            7300
+          ],
+          "reference_shape": [
+            7320,
+            7300
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250108000002-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250108000003-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            363,
+            368
+          ]
+        },
+        {
+          "dir": "20250108000003-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1417,
+            1437
+          ]
+        },
+        {
+          "dir": "20250108000003-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1412,
+            1432
+          ]
+        },
+        {
+          "dir": "20250108000003-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1417,
+            1437
+          ]
+        },
+        {
+          "dir": "20250108000003-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3003,
+            3046
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            353,
+            358
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1807,
+            1752
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250108000003-w028_2025010836",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250108000003-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000003-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            30030,
+            30460
+          ],
+          "reference_shape": [
+            30030,
+            30460
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250108000003-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000003-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000003-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            28240,
+            28640
+          ],
+          "reference_shape": [
+            28240,
+            28640
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250108000003-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000003-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000003-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7260,
+            7360
+          ],
+          "reference_shape": [
+            7260,
+            7360
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250108000003-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250108000004-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            361,
+            371
+          ]
+        },
+        {
+          "dir": "20250108000004-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1409,
+            1449
+          ]
+        },
+        {
+          "dir": "20250108000004-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1404,
+            1444
+          ]
+        },
+        {
+          "dir": "20250108000004-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1409,
+            1449
+          ]
+        },
+        {
+          "dir": "20250108000004-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2986,
+            3072
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            351,
+            361
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1940,
+            1884
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250108000004-w029_2025010827",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250108000004-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000004-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29860,
+            30720
+          ],
+          "reference_shape": [
+            29860,
+            30720
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250108000004-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000004-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000004-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            28080,
+            28880
+          ],
+          "reference_shape": [
+            28080,
+            28880
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250108000004-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000004-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000004-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7220,
+            7420
+          ],
+          "reference_shape": [
+            7220,
+            7420
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250108000004-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250108000005-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            357,
+            373
+          ]
+        },
+        {
+          "dir": "20250108000005-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1393,
+            1457
+          ]
+        },
+        {
+          "dir": "20250108000005-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1388,
+            1452
+          ]
+        },
+        {
+          "dir": "20250108000005-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1393,
+            1457
+          ]
+        },
+        {
+          "dir": "20250108000005-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2952,
+            3089
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            347,
+            363
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2090,
+            2033
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250108000005-w030_2025010818",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250108000005-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000005-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29520,
+            30890
+          ],
+          "reference_shape": [
+            29520,
+            30890
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250108000005-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000005-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000005-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            27760,
+            29040
+          ],
+          "reference_shape": [
+            27760,
+            29040
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250108000005-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250108000005-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250108000005-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7140,
+            7460
+          ],
+          "reference_shape": [
+            7140,
+            7460
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250108000005-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250223000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            361,
+            501
+          ]
+        },
+        {
+          "dir": "20250223000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1408,
+            1954
+          ]
+        },
+        {
+          "dir": "20250223000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1404,
+            1948
+          ]
+        },
+        {
+          "dir": "20250223000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1408,
+            1954
+          ]
+        },
+        {
+          "dir": "20250223000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2986,
+            4144
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            351,
+            487
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            570,
+            792
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250223000000-w059_2025022312",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250223000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250223000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29860,
+            41440
+          ],
+          "reference_shape": [
+            29860,
+            41440
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250223000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250223000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250223000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            28080,
+            38960
+          ],
+          "reference_shape": [
+            28080,
+            38960
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250223000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250223000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250223000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7220,
+            10020
+          ],
+          "reference_shape": [
+            7220,
+            10020
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250223000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20250831000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            320,
+            399
+          ]
+        },
+        {
+          "dir": "20250831000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1248,
+            1557
+          ]
+        },
+        {
+          "dir": "20250831000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1244,
+            1552
+          ]
+        },
+        {
+          "dir": "20250831000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1248,
+            1557
+          ]
+        },
+        {
+          "dir": "20250831000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2646,
+            3302
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            311,
+            388
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            615,
+            431
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20250831000000-w040_2025083102",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20250831000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250831000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            26460,
+            33020
+          ],
+          "reference_shape": [
+            26460,
+            33020
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20250831000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250831000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250831000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            24880,
+            31040
+          ],
+          "reference_shape": [
+            24880,
+            31040
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20250831000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20250831000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20250831000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            6400,
+            7980
+          ],
+          "reference_shape": [
+            6400,
+            7980
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20250831000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20251226000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            386,
+            521
+          ]
+        },
+        {
+          "dir": "20251226000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1505,
+            2035
+          ]
+        },
+        {
+          "dir": "20251226000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1500,
+            2028
+          ]
+        },
+        {
+          "dir": "20251226000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1505,
+            2035
+          ]
+        },
+        {
+          "dir": "20251226000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3191,
+            4315
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            375,
+            507
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            539,
+            747
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20251226000000-w055_2025122611",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20251226000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20251226000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            31910,
+            43150
+          ],
+          "reference_shape": [
+            31910,
+            43150
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20251226000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251226000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20251226000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            30000,
+            40560
+          ],
+          "reference_shape": [
+            30000,
+            40560
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20251226000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20251226000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20251226000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7720,
+            10420
+          ],
+          "reference_shape": [
+            7720,
+            10420
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20251226000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260108000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            310,
+            401
+          ]
+        },
+        {
+          "dir": "20260108000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1208,
+            1565
+          ]
+        },
+        {
+          "dir": "20260108000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1204,
+            1560
+          ]
+        },
+        {
+          "dir": "20260108000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1208,
+            1565
+          ]
+        },
+        {
+          "dir": "20260108000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2561,
+            3319
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            301,
+            390
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            631,
+            443
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260108000000-w041_2026010816",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260108000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260108000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            25610,
+            33190
+          ],
+          "reference_shape": [
+            25610,
+            33190
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260108000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260108000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260108000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            24080,
+            31200
+          ],
+          "reference_shape": [
+            24080,
+            31200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260108000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260108000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260108000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            6200,
+            8020
+          ],
+          "reference_shape": [
+            6200,
+            8020
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260108000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260112000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            306,
+            406
+          ]
+        },
+        {
+          "dir": "20260112000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1192,
+            1585
+          ]
+        },
+        {
+          "dir": "20260112000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1188,
+            1580
+          ]
+        },
+        {
+          "dir": "20260112000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1192,
+            1585
+          ]
+        },
+        {
+          "dir": "20260112000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2527,
+            3361
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            297,
+            395
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            644,
+            453
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260112000000-w043_2026011217",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260112000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260112000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            25270,
+            33610
+          ],
+          "reference_shape": [
+            25270,
+            33610
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260112000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260112000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260112000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            23760,
+            31600
+          ],
+          "reference_shape": [
+            23760,
+            31600
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260112000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260112000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260112000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            6120,
+            8120
+          ],
+          "reference_shape": [
+            6120,
+            8120
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260112000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260115000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            302,
+            408
+          ]
+        },
+        {
+          "dir": "20260115000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1180,
+            1593
+          ]
+        },
+        {
+          "dir": "20260115000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1176,
+            1588
+          ]
+        },
+        {
+          "dir": "20260115000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1180,
+            1593
+          ]
+        },
+        {
+          "dir": "20260115000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2501,
+            3378
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            294,
+            397
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            659,
+            464
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260115000000-w044_2026011522",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260115000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260115000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            25010,
+            33780
+          ],
+          "reference_shape": [
+            25010,
+            33780
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260115000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260115000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260115000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            23520,
+            31760
+          ],
+          "reference_shape": [
+            23520,
+            31760
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260115000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260115000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260115000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            6040,
+            8160
+          ],
+          "reference_shape": [
+            6040,
+            8160
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260115000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260115000001-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            359,
+            487
+          ]
+        },
+        {
+          "dir": "20260115000001-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1401,
+            1902
+          ]
+        },
+        {
+          "dir": "20260115000001-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1396,
+            1896
+          ]
+        },
+        {
+          "dir": "20260115000001-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1401,
+            1902
+          ]
+        },
+        {
+          "dir": "20260115000001-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2969,
+            4034
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            349,
+            474
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            511,
+            722
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260115000001-w056_2026011514",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260115000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260115000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29690,
+            40340
+          ],
+          "reference_shape": [
+            29690,
+            40340
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260115000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260115000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260115000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            27920,
+            37920
+          ],
+          "reference_shape": [
+            27920,
+            37920
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260115000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260115000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260115000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7180,
+            9740
+          ],
+          "reference_shape": [
+            7180,
+            9740
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260115000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260126000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            299,
+            412
+          ]
+        },
+        {
+          "dir": "20260126000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1609
+          ]
+        },
+        {
+          "dir": "20260126000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1164,
+            1604
+          ]
+        },
+        {
+          "dir": "20260126000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1609
+          ]
+        },
+        {
+          "dir": "20260126000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2476,
+            3412
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            291,
+            401
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            676,
+            490
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260126000000-w045_2026012619",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260126000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260126000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            24760,
+            34120
+          ],
+          "reference_shape": [
+            24760,
+            34120
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260126000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260126000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260126000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            23280,
+            32080
+          ],
+          "reference_shape": [
+            23280,
+            32080
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260126000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260126000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260126000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5980,
+            8240
+          ],
+          "reference_shape": [
+            5980,
+            8240
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260126000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260127000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            380,
+            489
+          ]
+        },
+        {
+          "dir": "20260127000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1481,
+            1910
+          ]
+        },
+        {
+          "dir": "20260127000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1476,
+            1904
+          ]
+        },
+        {
+          "dir": "20260127000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1481,
+            1910
+          ]
+        },
+        {
+          "dir": "20260127000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3140,
+            4051
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            369,
+            476
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            541,
+            756
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260127000000-w057_2026012713",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260127000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260127000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            31400,
+            40510
+          ],
+          "reference_shape": [
+            31400,
+            40510
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260127000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260127000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260127000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            29520,
+            38080
+          ],
+          "reference_shape": [
+            29520,
+            38080
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260127000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260127000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260127000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7600,
+            9780
+          ],
+          "reference_shape": [
+            7600,
+            9780
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260127000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260130000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            354,
+            375
+          ]
+        },
+        {
+          "dir": "20260130000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1381,
+            1465
+          ]
+        },
+        {
+          "dir": "20260130000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1376,
+            1460
+          ]
+        },
+        {
+          "dir": "20260130000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1381,
+            1465
+          ]
+        },
+        {
+          "dir": "20260130000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2927,
+            3106
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            344,
+            365
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2217,
+            2159
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260130000000-w031_2026013019",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260130000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260130000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29270,
+            31060
+          ],
+          "reference_shape": [
+            29270,
+            31060
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260130000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260130000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260130000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            27520,
+            29200
+          ],
+          "reference_shape": [
+            27520,
+            29200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260130000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260130000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260130000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7080,
+            7500
+          ],
+          "reference_shape": [
+            7080,
+            7500
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260130000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.04999536507740321,
+            0.04998917983120537
+          ],
+          "stored_shape": [
+            1155,
+            1618
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260130000001-w030_202601301912",
+      "surface_volumes": []
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260203000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            355,
+            380
+          ]
+        },
+        {
+          "dir": "20260203000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1385,
+            1485
+          ]
+        },
+        {
+          "dir": "20260203000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1380,
+            1480
+          ]
+        },
+        {
+          "dir": "20260203000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1385,
+            1485
+          ]
+        },
+        {
+          "dir": "20260203000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2935,
+            3149
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            345,
+            370
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2393,
+            2334
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260203000000-w032_2026020303",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260203000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260203000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29350,
+            31490
+          ],
+          "reference_shape": [
+            29350,
+            31490
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260203000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260203000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260203000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            27600,
+            29600
+          ],
+          "reference_shape": [
+            27600,
+            29600
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260203000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260203000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260203000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7100,
+            7600
+          ],
+          "reference_shape": [
+            7100,
+            7600
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260203000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260206000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            299,
+            394
+          ]
+        },
+        {
+          "dir": "20260206000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1537
+          ]
+        },
+        {
+          "dir": "20260206000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1164,
+            1532
+          ]
+        },
+        {
+          "dir": "20260206000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1537
+          ]
+        },
+        {
+          "dir": "20260206000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2476,
+            3259
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            291,
+            383
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            638,
+            450
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260206000000-w042_2026020613",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260206000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            24760,
+            32590
+          ],
+          "reference_shape": [
+            24760,
+            32590
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260206000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260206000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            23280,
+            30640
+          ],
+          "reference_shape": [
+            23280,
+            30640
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260206000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260206000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5980,
+            7880
+          ],
+          "reference_shape": [
+            5980,
+            7880
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260206000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260206000001-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            292,
+            422
+          ]
+        },
+        {
+          "dir": "20260206000001-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1140,
+            1645
+          ]
+        },
+        {
+          "dir": "20260206000001-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1136,
+            1640
+          ]
+        },
+        {
+          "dir": "20260206000001-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1140,
+            1645
+          ]
+        },
+        {
+          "dir": "20260206000001-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2416,
+            3489
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            284,
+            410
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            698,
+            509
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260206000001-w047_2026020613",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260206000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            24160,
+            34890
+          ],
+          "reference_shape": [
+            24160,
+            34890
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260206000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260206000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            22720,
+            32800
+          ],
+          "reference_shape": [
+            22720,
+            32800
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260206000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260206000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5840,
+            8440
+          ],
+          "reference_shape": [
+            5840,
+            8440
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260206000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260206000002-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            383,
+            557
+          ]
+        },
+        {
+          "dir": "20260206000002-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1493,
+            2175
+          ]
+        },
+        {
+          "dir": "20260206000002-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1488,
+            2168
+          ]
+        },
+        {
+          "dir": "20260206000002-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1493,
+            2175
+          ]
+        },
+        {
+          "dir": "20260206000002-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3165,
+            4612
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            372,
+            542
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            555,
+            763
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260206000002-w054_2026020617",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260206000002-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000002-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            31650,
+            46120
+          ],
+          "reference_shape": [
+            31650,
+            46120
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260206000002-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260206000002-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000002-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            29760,
+            43360
+          ],
+          "reference_shape": [
+            29760,
+            43360
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260206000002-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260206000002-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260206000002-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7660,
+            11140
+          ],
+          "reference_shape": [
+            7660,
+            11140
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260206000002-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260210000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            375,
+            494
+          ]
+        },
+        {
+          "dir": "20260210000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1465,
+            1926
+          ]
+        },
+        {
+          "dir": "20260210000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1460,
+            1920
+          ]
+        },
+        {
+          "dir": "20260210000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1465,
+            1926
+          ]
+        },
+        {
+          "dir": "20260210000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3106,
+            4085
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            365,
+            480
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            560,
+            779
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260210000000-w058_2026021020",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260210000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260210000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            31060,
+            40850
+          ],
+          "reference_shape": [
+            31060,
+            40850
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260210000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260210000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260210000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            29200,
+            38400
+          ],
+          "reference_shape": [
+            29200,
+            38400
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260210000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260210000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260210000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7500,
+            9880
+          ],
+          "reference_shape": [
+            7500,
+            9880
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260210000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260215000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            355,
+            331
+          ]
+        },
+        {
+          "dir": "20260215000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1385,
+            1292
+          ]
+        },
+        {
+          "dir": "20260215000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1380,
+            1288
+          ]
+        },
+        {
+          "dir": "20260215000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1385,
+            1292
+          ]
+        },
+        {
+          "dir": "20260215000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2935,
+            2740
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            345,
+            322
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            376,
+            360
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260215000000-w024_2026021572",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260215000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260215000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29350,
+            27400
+          ],
+          "reference_shape": [
+            29350,
+            27400
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260215000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260215000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260215000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            27600,
+            25760
+          ],
+          "reference_shape": [
+            27600,
+            25760
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260215000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260215000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260215000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7100,
+            6620
+          ],
+          "reference_shape": [
+            7100,
+            6620
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260215000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260219000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            355,
+            384
+          ]
+        },
+        {
+          "dir": "20260219000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1385,
+            1497
+          ]
+        },
+        {
+          "dir": "20260219000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1380,
+            1492
+          ]
+        },
+        {
+          "dir": "20260219000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1385,
+            1497
+          ]
+        },
+        {
+          "dir": "20260219000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2935,
+            3174
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            345,
+            373
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2426,
+            2366
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260219000000-w033_2026021913",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260219000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260219000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29350,
+            31740
+          ],
+          "reference_shape": [
+            29350,
+            31740
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260219000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260219000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260219000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            27600,
+            29840
+          ],
+          "reference_shape": [
+            27600,
+            29840
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260219000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260219000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260219000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7100,
+            7680
+          ],
+          "reference_shape": [
+            7100,
+            7680
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260219000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260219000001-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            286,
+            426
+          ]
+        },
+        {
+          "dir": "20260219000001-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1116,
+            1661
+          ]
+        },
+        {
+          "dir": "20260219000001-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1112,
+            1656
+          ]
+        },
+        {
+          "dir": "20260219000001-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1116,
+            1661
+          ]
+        },
+        {
+          "dir": "20260219000001-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2365,
+            3523
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            278,
+            414
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            714,
+            523
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260219000001-w048_2026021912",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260219000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260219000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            23650,
+            35230
+          ],
+          "reference_shape": [
+            23650,
+            35230
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260219000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260219000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260219000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            22240,
+            33120
+          ],
+          "reference_shape": [
+            22240,
+            33120
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260219000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260219000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260219000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5720,
+            8520
+          ],
+          "reference_shape": [
+            5720,
+            8520
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260219000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260220000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            372,
+            518
+          ]
+        },
+        {
+          "dir": "20260220000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1453,
+            2022
+          ]
+        },
+        {
+          "dir": "20260220000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1448,
+            2016
+          ]
+        },
+        {
+          "dir": "20260220000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1453,
+            2022
+          ]
+        },
+        {
+          "dir": "20260220000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3080,
+            4289
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            362,
+            504
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            561,
+            767
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260220000000-w053_2026022021",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260220000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260220000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            30800,
+            42890
+          ],
+          "reference_shape": [
+            30800,
+            42890
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260220000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260220000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260220000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            28960,
+            40320
+          ],
+          "reference_shape": [
+            28960,
+            40320
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260220000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260220000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260220000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7440,
+            10360
+          ],
+          "reference_shape": [
+            7440,
+            10360
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260220000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260227000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            385,
+            488
+          ]
+        },
+        {
+          "dir": "20260227000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1501,
+            1906
+          ]
+        },
+        {
+          "dir": "20260227000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1496,
+            1900
+          ]
+        },
+        {
+          "dir": "20260227000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1501,
+            1906
+          ]
+        },
+        {
+          "dir": "20260227000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3182,
+            4042
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            374,
+            475
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            581,
+            787
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260227000000-w052_2026022705",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260227000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260227000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            31820,
+            40420
+          ],
+          "reference_shape": [
+            31820,
+            40420
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260227000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260227000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260227000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            29920,
+            38000
+          ],
+          "reference_shape": [
+            29920,
+            38000
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260227000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260227000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260227000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7700,
+            9760
+          ],
+          "reference_shape": [
+            7700,
+            9760
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260227000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260302000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            428,
+            386
+          ]
+        },
+        {
+          "dir": "20260302000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1670,
+            1504
+          ]
+        },
+        {
+          "dir": "20260302000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1664,
+            1500
+          ]
+        },
+        {
+          "dir": "20260302000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1670,
+            1504
+          ]
+        },
+        {
+          "dir": "20260302000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3539,
+            3191
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            416,
+            375
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            599,
+            421
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260302000000-w039_2026030210",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260302000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260302000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            35390,
+            31910
+          ],
+          "reference_shape": [
+            35390,
+            31910
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260302000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260302000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260302000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            33280,
+            30000
+          ],
+          "reference_shape": [
+            33280,
+            30000
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260302000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260302000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260302000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            8560,
+            7720
+          ],
+          "reference_shape": [
+            8560,
+            7720
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260302000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260302000001-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            265,
+            194
+          ]
+        },
+        {
+          "dir": "20260302000001-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1035,
+            758
+          ]
+        },
+        {
+          "dir": "20260302000001-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1032,
+            756
+          ]
+        },
+        {
+          "dir": "20260302000001-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1035,
+            758
+          ]
+        },
+        {
+          "dir": "20260302000001-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2195,
+            1608
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            258,
+            189
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            262,
+            176
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260302000001-w050_2026030220",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260302000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260302000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            21950,
+            16080
+          ],
+          "reference_shape": [
+            21950,
+            16080
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260302000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260302000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260302000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            231,
+            43900,
+            32160
+          ],
+          "reference_shape": [
+            43900,
+            32160
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053.zarr",
+          "target_meshes": [
+            "20260302000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260302000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260302000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            20640,
+            15120
+          ],
+          "reference_shape": [
+            20640,
+            15120
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260302000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260302000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260302000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5300,
+            3880
+          ],
+          "reference_shape": [
+            5300,
+            3880
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260302000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260303000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            352,
+            386
+          ]
+        },
+        {
+          "dir": "20260303000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1373,
+            1505
+          ]
+        },
+        {
+          "dir": "20260303000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1368,
+            1500
+          ]
+        },
+        {
+          "dir": "20260303000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1373,
+            1505
+          ]
+        },
+        {
+          "dir": "20260303000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2910,
+            3191
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            342,
+            375
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2430,
+            2370
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260303000000-w034_2026030317",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260303000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260303000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            29100,
+            31910
+          ],
+          "reference_shape": [
+            29100,
+            31910
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260303000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260303000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260303000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            27360,
+            30000
+          ],
+          "reference_shape": [
+            27360,
+            30000
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260303000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260303000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260303000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7040,
+            7720
+          ],
+          "reference_shape": [
+            7040,
+            7720
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260303000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260306000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            310,
+            372
+          ]
+        },
+        {
+          "dir": "20260306000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1208,
+            1452
+          ]
+        },
+        {
+          "dir": "20260306000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1204,
+            1448
+          ]
+        },
+        {
+          "dir": "20260306000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1208,
+            1452
+          ]
+        },
+        {
+          "dir": "20260306000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2561,
+            3081
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            301,
+            362
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            456,
+            321
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260306000000-w038_2026030608",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260306000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260306000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            25610,
+            30810
+          ],
+          "reference_shape": [
+            25610,
+            30810
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260306000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260306000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260306000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            24080,
+            28960
+          ],
+          "reference_shape": [
+            24080,
+            28960
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260306000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260306000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260306000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            6200,
+            7440
+          ],
+          "reference_shape": [
+            6200,
+            7440
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260306000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260306000001-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            379,
+            480
+          ]
+        },
+        {
+          "dir": "20260306000001-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1477,
+            1874
+          ]
+        },
+        {
+          "dir": "20260306000001-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1472,
+            1868
+          ]
+        },
+        {
+          "dir": "20260306000001-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1477,
+            1874
+          ]
+        },
+        {
+          "dir": "20260306000001-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            3131,
+            3974
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            368,
+            467
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            601,
+            807
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260306000001-w051_2026030600",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260306000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260306000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            31310,
+            39740
+          ],
+          "reference_shape": [
+            31310,
+            39740
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260306000001-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260306000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260306000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            29440,
+            37360
+          ],
+          "reference_shape": [
+            29440,
+            37360
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260306000001-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260306000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260306000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            7580,
+            9600
+          ],
+          "reference_shape": [
+            7580,
+            9600
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260306000001-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260310000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            307,
+            360
+          ]
+        },
+        {
+          "dir": "20260310000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1196,
+            1404
+          ]
+        },
+        {
+          "dir": "20260310000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1192,
+            1400
+          ]
+        },
+        {
+          "dir": "20260310000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1196,
+            1404
+          ]
+        },
+        {
+          "dir": "20260310000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2535,
+            2978
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            298,
+            350
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            449,
+            316
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260310000000-w037_2026031015",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260310000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260310000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            25350,
+            29780
+          ],
+          "reference_shape": [
+            25350,
+            29780
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260310000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260310000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260310000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            23840,
+            28000
+          ],
+          "reference_shape": [
+            23840,
+            28000
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260310000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260310000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260310000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            6140,
+            7200
+          ],
+          "reference_shape": [
+            6140,
+            7200
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260310000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260311000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            347,
+            319
+          ]
+        },
+        {
+          "dir": "20260311000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1353,
+            1244
+          ]
+        },
+        {
+          "dir": "20260311000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1348,
+            1240
+          ]
+        },
+        {
+          "dir": "20260311000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1353,
+            1244
+          ]
+        },
+        {
+          "dir": "20260311000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2867,
+            2638
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            337,
+            310
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            414,
+            398
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260311000000-w023_202603112281",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260311000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260311000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            28670,
+            26380
+          ],
+          "reference_shape": [
+            28670,
+            26380
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260311000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260311000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260311000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            26960,
+            24800
+          ],
+          "reference_shape": [
+            26960,
+            24800
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260311000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260311000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260311000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            6940,
+            6380
+          ],
+          "reference_shape": [
+            6940,
+            6380
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260311000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260316000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            299,
+            349
+          ]
+        },
+        {
+          "dir": "20260316000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1360
+          ]
+        },
+        {
+          "dir": "20260316000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1164,
+            1356
+          ]
+        },
+        {
+          "dir": "20260316000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1360
+          ]
+        },
+        {
+          "dir": "20260316000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2476,
+            2885
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            291,
+            339
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            443,
+            312
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260316000000-w036_2026031607",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260316000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260316000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            24760,
+            28850
+          ],
+          "reference_shape": [
+            24760,
+            28850
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260316000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260316000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260316000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            23280,
+            27120
+          ],
+          "reference_shape": [
+            23280,
+            27120
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260316000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260316000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260316000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5980,
+            6980
+          ],
+          "reference_shape": [
+            5980,
+            6980
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260316000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260317000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            291,
+            262
+          ]
+        },
+        {
+          "dir": "20260317000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1136,
+            1023
+          ]
+        },
+        {
+          "dir": "20260317000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1132,
+            1020
+          ]
+        },
+        {
+          "dir": "20260317000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1136,
+            1023
+          ]
+        },
+        {
+          "dir": "20260317000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2408,
+            2170
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            283,
+            255
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            441,
+            311
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260317000000-w035_2026031718",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260317000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260317000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            24080,
+            21700
+          ],
+          "reference_shape": [
+            24080,
+            21700
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260317000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260317000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260317000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            22640,
+            20400
+          ],
+          "reference_shape": [
+            22640,
+            20400
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260317000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260317000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260317000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5820,
+            5240
+          ],
+          "reference_shape": [
+            5820,
+            5240
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260317000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260318000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            283,
+            470
+          ]
+        },
+        {
+          "dir": "20260318000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1104,
+            1833
+          ]
+        },
+        {
+          "dir": "20260318000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1100,
+            1828
+          ]
+        },
+        {
+          "dir": "20260318000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1104,
+            1833
+          ]
+        },
+        {
+          "dir": "20260318000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2340,
+            3889
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            275,
+            457
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            746,
+            555
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260318000000-w049_20260318",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260318000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260318000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            23400,
+            38890
+          ],
+          "reference_shape": [
+            23400,
+            38890
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260318000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260318000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260318000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            22000,
+            36560
+          ],
+          "reference_shape": [
+            22000,
+            36560
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260318000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260318000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260318000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5660,
+            9400
+          ],
+          "reference_shape": [
+            5660,
+            9400
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260318000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260325000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            299,
+            413
+          ]
+        },
+        {
+          "dir": "20260325000000-on-20250820105138-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1613
+          ]
+        },
+        {
+          "dir": "20260325000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1164,
+            1608
+          ]
+        },
+        {
+          "dir": "20260325000000-on-20260319133554-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            1168,
+            1613
+          ]
+        },
+        {
+          "dir": "20260325000000-on-20260413113053-1.129um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            2476,
+            3421
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            291,
+            402
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_original",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            684,
+            498
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260325000000-w046_20260325",
+      "surface_volumes": [
+        {
+          "ds_scale": 0.5,
+          "exact_meshes": [
+            "20260325000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260325000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "level0_shape": [
+            116,
+            24760,
+            34210
+          ],
+          "reference_shape": [
+            24760,
+            34210
+          ],
+          "source_group": 1,
+          "status": "exact_target",
+          "surface_volume": "1.129um-0.22m-59keV-volume-20260413113053-L1.zarr",
+          "target_meshes": [
+            "20260325000000-on-20260413113053-1.129um.tifxyz"
+          ],
+          "volume_id": "20260413113053"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260325000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260325000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            23280,
+            32160
+          ],
+          "reference_shape": [
+            23280,
+            32160
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260325000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260325000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260325000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            5980,
+            8260
+          ],
+          "reference_shape": [
+            5980,
+            8260
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260325000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    },
+    {
+      "meshes": [
+        {
+          "dir": "20260422000000-on-20250728140407-9.362um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            89,
+            268
+          ]
+        },
+        {
+          "dir": "20260422000000-on-20250822062710-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            349,
+            1046
+          ]
+        },
+        {
+          "dir": "20260422000000-on-20260102150214-2.399um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            348,
+            1044
+          ]
+        },
+        {
+          "dir": "20260422000000-on-20260319133050-2.403um.tifxyz",
+          "scale": [
+            0.05000000074505806,
+            0.05000000074505806
+          ],
+          "stored_shape": [
+            349,
+            1046
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_flattened",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            88,
+            264
+          ]
+        },
+        {
+          "dir": "intermediate/tifxyz_normalized",
+          "scale": [
+            0.05,
+            0.05
+          ],
+          "stored_shape": [
+            87,
+            261
+          ]
+        }
+      ],
+      "segment": "PHerc0139/segments/20260422000000-title_2026042222_zmid_flatboi",
+      "surface_volumes": [
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260422000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260422000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "level0_shape": [
+            109,
+            6960,
+            20880
+          ],
+          "reference_shape": [
+            6960,
+            20880
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+          "target_meshes": [
+            "20260422000000-on-20260102150214-2.399um.tifxyz"
+          ],
+          "volume_id": "20260102150214"
+        },
+        {
+          "ds_scale": 1.0,
+          "exact_meshes": [
+            "20260422000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "exact_target_meshes": [
+            "20260422000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "level0_shape": [
+            28,
+            1780,
+            5360
+          ],
+          "reference_shape": [
+            1780,
+            5360
+          ],
+          "source_group": 0,
+          "status": "exact_target",
+          "surface_volume": "9.362um-1.2m-113keV-volume-20250728140407.zarr",
+          "target_meshes": [
+            "20260422000000-on-20250728140407-9.362um.tifxyz"
+          ],
+          "volume_id": "20250728140407"
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "dotted_target_meshes": 189,
+    "exact_total": 114,
+    "mesh_errors": 0,
+    "status_counts": {
+      "error": 0,
+      "exact_other": 0,
+      "exact_target": 114,
+      "unresolved": 0
+    },
+    "surface_volumes": 114
+  }
+}

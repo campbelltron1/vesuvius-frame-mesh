@@ -1,0 +1,40 @@
+{
+  "base_git_sha": "2a44c3e66f98cb17537312ade0151fce4a3df54d",
+  "classification": "EXACT",
+  "comparison": {
+    "added": 0,
+    "baseline_rows": 650,
+    "evidence_changed": 0,
+    "errors": 0,
+    "outcome_changed": 0,
+    "refresh_rows": 650,
+    "removed": 0,
+    "selection_changed": 0
+  },
+  "frozen": {
+    "audit_sha256": {
+      "F_canvas_provenance_controls.json": "371114ad9e52b5797307ad58ac9c71d3249d0bddbe8e4d6d6a7f9ed233c85811",
+      "F_canvas_provenance_pherc0139.json": "9000d3c672f90d7b3f9396dc49bfcc65774c172e7638061a6986222615d32bd7",
+      "F_canvas_provenance_validation.json": "9512169411183d4232fba1b6699ef195d799fc21f023acf3f8db954a14276a17"
+    },
+    "manifest_sha256": "cedf131cb5c4293be101db84043db9c765ff08e9952c00673a8a5885db970c2b",
+    "verification_sha256": "b1fec8095406da8f2a2bf8c760e942e82cda25a6ffd9207aacfe92c7e52d5420"
+  },
+  "live_refresh": {
+    "audit_sha256": "f48852cd3ec941c1260b6b2c1df1f1b6febc4af950f1fc568f6d728644db15fe",
+    "cache_hit_count": 7048,
+    "comparison_sha256": "a0199af3704f339a1f12ed459b7e3ab56742f7bf3e644d40e2a6a3cc55b6b2cf",
+    "downloaded_bytes": 3868368,
+    "generated_at_utc": "2026-10-10T08:51:02.595260+00:00",
+    "manifest_sha256": "cedf131cb5c4293be101db84043db9c765ff08e9952c00673a8a5885db970c2b",
+    "request_count": 2309,
+    "verification_sha256": "b81066e3d8b9c555d804d75f202fe40ef69f20fc7fa02739e3b9fafb7cde51f5"
+  },
+  "schema_version": 1,
+  "tests": {
+    "comparator_mutation_passed": 10,
+    "comparator_mutation_total": 10,
+    "full_suite_passed": 158,
+    "full_suite_total": 158
+  }
+}

@@ -1,0 +1,8 @@
+.generated-by-build_submission_packages
+__pycache__/
+*.pyc
+.venv/
+build/
+dist/
+*.egg-info/
+cache/

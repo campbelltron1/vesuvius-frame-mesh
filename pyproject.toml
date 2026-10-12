@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=84", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vesuvius-frame-mesh"
+version = "0.1.2"
+description = "Fail-closed public mesh resolver for Vesuvius surface-volume CT frames"
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+license-files = ["LICENSE"]
+dependencies = []
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+[project.scripts]
+vesuvius-frame-mesh = "resolve_volume_frame_mesh:main"
+vesuvius-frame-mesh-batch = "resolve_volume_frame_batch:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["canvas_provenance", "resolve_volume_frame_batch", "resolve_volume_frame_mesh"]

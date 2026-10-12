@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+title: Vesuvius frame-mesh resolver
+message: If you use this software, please cite this repository and the prior work listed in the README.
+type: software
+authors:
+  - family-names: Campbell
+    given-names: Ryan
+version: 0.1.2
+date-released: 2026-10-12
+license: MIT
+repository-code: https://github.com/campbelltron1/vesuvius-frame-mesh

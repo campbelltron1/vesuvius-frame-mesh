@@ -1,0 +1,102 @@
+{
+  "benchmark": "villa issue #1845 deterministic volume-frame mesh selection",
+  "claim_limit": "This validates a deterministic mesh-selection guard; the native-mesh accuracy reference and ink model are prior work from villa issue #1845.",
+  "code_sha": "e4831f492c5e1e8d3b3496148775da58c9869bfd",
+  "corpus": {
+    "counts": {
+      "resolved": 650
+    },
+    "decision": "GO",
+    "incorrect_automatic_resolutions": 0,
+    "resolved_fraction": 1.0,
+    "total": 650
+  },
+  "decision": "GO",
+  "gates": {
+    "corpus_go": true,
+    "minimum_auc_gain": true,
+    "native_auc_reproduced": true,
+    "selection_resolved": true
+  },
+  "generated_at_utc": "2026-10-09T21:52:36.998377+00:00",
+  "labels_loaded_only_by_final_scorer": true,
+  "render": {
+    "canvas_cols": [
+      1728,
+      4032
+    ],
+    "canvas_rows": [
+      4800,
+      5568
+    ],
+    "chunks_fetched": 522,
+    "cols": null,
+    "dense_tiles": true,
+    "layer_offsets_vox": [
+      -50.0,
+      50.0
+    ],
+    "layers": 101,
+    "level": 2,
+    "level_origin": "zero",
+    "normal_sampling": "nearest",
+    "oversample": 1,
+    "pixels_per_cell": 5.0,
+    "prefetch_step": 0,
+    "rows": null,
+    "seconds": 55.13015604019165,
+    "smooth_normals": 0.0,
+    "tifxyz": "<AUDIT_REPOSITORY>/src/out/w029_local_registration/inputs/mesh_2399",
+    "upsample": 5.0,
+    "volume": "https://vesuvius-challenge-open-data.s3.us-east-1.amazonaws.com/PHerc0139/volumes/20260102150214-2.399um-0.2m-78keV-masked.zarr",
+    "workers": 4
+  },
+  "resource_limits": {
+    "ink_batch_size": 1,
+    "ink_num_workers": 0,
+    "minimum_free_memory_percent": 25,
+    "mps_memory_fraction": 0.25,
+    "nice": 15,
+    "numeric_threads": 2,
+    "render_cache_chunks": 128,
+    "render_workers": 4,
+    "sequential_heavy_stages": true
+  },
+  "schema_version": 1,
+  "selection_uses_labels": false,
+  "sha256": {
+    "baseline": "1a08128619c94e1bf26ff50f97030f3e1a2a5eb2272511ea033347614155ba51",
+    "corpus": "2e46dba3a15be267d1f8af4c6a02abb18650104715486e1f4c5900a058fb52de",
+    "labels": "5111b5322b7d4bcc7312d527533c72fbf3349b14404bcecca386d6aa385def3b",
+    "prediction": "92a6866f377ff87e8cac66dfe00351749c16be75aa5f266524450c187044593b",
+    "render": "660fbe06061852542adcd231fcff727097c0f6b279779006736b7280892107fb",
+    "resolution": "7dfd20ef54735ee1482f74dbec42ef1011fce452d6411b17579cfa45b9709d18",
+    "score": "977af638a7189fdd98bc62e9cee2a6cae141bed85a8df7341b9a8f75e9ac6ada"
+  },
+  "w029_accuracy_consequence": {
+    "absolute_difference_from_published_native": 0.000568687915802002,
+    "delta_vs_reproduced_coarse": 0.035455167293548584,
+    "gain_passed": true,
+    "minimum_gain": 0.02,
+    "n_validation_pixels": 177635,
+    "native_tolerance": 0.01,
+    "published_coarse_auc": 0.857180118560791,
+    "published_native_auc": 0.8967176079750061,
+    "reproduced_coarse_auc": 0.8606937527656555,
+    "resolved_native_auc": 0.8961489200592041,
+    "share_on_background": 0.0940600947631288,
+    "share_on_ink": 0.71976925323727,
+    "within_native_tolerance": true
+  },
+  "w029_selection": {
+    "segment": "PHerc0139/segments/20250108000004-w029_2025010827",
+    "selected_mesh": "20250108000004-on-20260102150214-2.399um.tifxyz",
+    "selection_signals": [
+      "volume_id",
+      "canvas_compatibility"
+    ],
+    "status": "resolved",
+    "surface_volume": "2.399um-0.22m-78keV-volume-20260102150214.zarr",
+    "volume_id": "20260102150214"
+  }
+}

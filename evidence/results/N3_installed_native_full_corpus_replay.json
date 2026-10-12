@@ -1,0 +1,57 @@
+{
+  "artifacts": {
+    "checkpoint_bytes": 1330800,
+    "checkpoint_sha256": "1ef20a655e82e44f7d79430ef55309455a05c6ba4b472a48e95d69d17c50b8fe",
+    "comparison_bytes": 1010,
+    "comparison_sha256": "7bbe1a5e2069c5ef50b165f7948838cd1a5ac961c9992f55b161a70eb7affa05",
+    "result_bytes": 1331614,
+    "result_sha256": "241940baf5f90db937e00a769b65fee108690d04c4a649310ec2284ebefed582",
+    "semantic_sha256": "42001af7dba46c5f70bcceb140ef1cfbdc3d65de7ac997b98eabd59b16e06a28",
+    "wheel_bytes": 21967,
+    "wheel_sha256": "8a9cb4dccb30ee474dd38d22f9ec2302e0baad71538593d7a42c7e00ffb5098e"
+  },
+  "comparison": {
+    "actual": 650,
+    "classification": "EXACT",
+    "errors": 0,
+    "expected": 650,
+    "extra": 0,
+    "missing": 0,
+    "non_resolved": 0,
+    "selection_changed": 0
+  },
+  "decision": "GO",
+  "method": "fresh-cache installed-wheel native two-worker full-corpus replay",
+  "network": {
+    "budget_bytes": 262144000,
+    "cache_hit_bytes": 9406,
+    "cache_hit_count": 68,
+    "cache_invalid_bytes": 0,
+    "cache_invalid_count": 0,
+    "downloaded_bytes": 6322009,
+    "request_count": 5833
+  },
+  "result": {
+    "cases": 650,
+    "resolved": 650,
+    "workers_requested": 2,
+    "workers_used": 2
+  },
+  "runtime": {
+    "elapsed_seconds": 2974.56,
+    "free_memory_end_percent": 46,
+    "free_memory_observed_min_percent": 41,
+    "free_memory_start_percent": 53,
+    "numeric_thread_cap": 2,
+    "processes": 1,
+    "system_seconds": 17.96,
+    "temporary_cache_removed_after_capture": true,
+    "temporary_file_residue": 0,
+    "user_seconds": 28.56
+  },
+  "schema_version": 1,
+  "source": {
+    "git_sha": "296cdc2b447c4320c4dacd4ebecb52be6eed525b",
+    "package_version": "0.1.1"
+  }
+}
