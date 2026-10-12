@@ -1,27 +1,27 @@
-# v0.1.2 — initial public release
+# v0.1.3 — eight-case consequence evidence
 
-This release provides a fail-closed, metadata-only resolver for selecting the
-published `tifxyz` mesh built in a requested Vesuvius surface volume's CT
-frame.
+This evidence-only update leaves the v0.1.2 resolver behavior unchanged and
+adds a preregistered eight-case PHerc0139 consequence test.
 
 Highlights:
 
-- single-case and bounded one/two-worker batch CLIs;
-- explicit `resolved`, `missing`, `ambiguous`, and `invalid_metadata` results;
-- canvas verification against both `.zattrs` and the stored level-0 Zarr
-  shape;
-- atomic metadata caching and plan-bound checkpoint/resume;
-- 650-case frozen public-corpus evidence plus an independent verifier; and
-- deterministic wheel and normalized-sdist builds.
+- mean fixed-canvas native-minus-wrong-frame AUC of +0.01845;
+- 7/8 positive cases and bootstrap 95% interval [+0.00823, +0.02872];
+- 36/36 locked alignment and evaluation-mask sensitivities retain GO;
+- exact sign and mean sign-flip checks;
+- complete case JSON and prediction hashes;
+- displacement table plus disclosed, outcome-selected explanatory panels; and
+- an explicit bound: after separate label-assisted alignment, the mean AUC
+  advantage is only +0.00173.
 
-The clean release repository passes 111 tests. The supplied release verifier
-builds twice, installs the wheel into a temporary environment, exercises both
-commands, runs the complete clean suite, and exact-compares the 650-case
-replay. Artifact sizes and SHA-256 digests are recorded in
-`release_verification.json`, repository `SHA256SUMS`, and
-`dist/SHA256SUMS` for the uploadable release assets.
+The clean release repository now passes 112 tests. The supplied release
+verifier builds twice, installs the wheel into a temporary environment,
+exercises both commands, exact-compares the frozen 650-case metadata replay,
+and verifies the packaged multi-case evidence. Resolver runtime code is
+unchanged from v0.1.2.
 
-Claim limit: the +0.03546 w029 AUC consequence is one previously defined
-benchmark, not a new multi-segment accuracy result. The tool verifies frame
-and canvas provenance; it does not improve mesh geometry, transforms, depth
-seating, or the ink model.
+## v0.1.2 — initial public release
+
+The initial release introduced the fail-closed single and bounded batch
+resolvers, canvas verification, atomic metadata caching, checkpoint/resume,
+the 650-case public-corpus audit, and deterministic release builds.

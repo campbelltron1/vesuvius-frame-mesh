@@ -14,7 +14,7 @@ import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 ARTIFACT = f"vesuvius_frame_mesh-{VERSION}"
 
 
@@ -150,7 +150,7 @@ def main() -> int:
             [sys.executable, "-m", "pytest", "-q", "-p", "no:cacheprovider", "tests"],
             env=test_env,
         )
-        if "111 passed" not in test_output:
+        if "112 passed" not in test_output:
             raise RuntimeError("unexpected exported test count")
 
         replay = tmp / "independent-verification.json"
@@ -183,7 +183,7 @@ def main() -> int:
             "schema_version": 1,
             "decision": "GO",
             "version": VERSION,
-            "tests": {"passed": 111},
+            "tests": {"passed": 112},
             "independent_corpus": {
                 "cases": 650,
                 "comparison": "EXACT",

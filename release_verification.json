@@ -1,15 +1,15 @@
 {
   "artifacts": {
     "sdist": {
-      "bytes": 32566,
-      "name": "vesuvius_frame_mesh-0.1.2.tar.gz",
-      "sha256": "13094b46a4f22c0d2795e0854a7a8d0b8e95bf088029042c55e399e6fd2cd16a",
+      "bytes": 33591,
+      "name": "vesuvius_frame_mesh-0.1.3.tar.gz",
+      "sha256": "c9f10673c6aa00240a6d80a0a3ae3c53ecc0bb01c5fa4c516df3d7beab55e74a",
       "two_normalized_builds_identical": true
     },
     "wheel": {
-      "bytes": 20721,
-      "name": "vesuvius_frame_mesh-0.1.2-py3-none-any.whl",
-      "sha256": "47a4d3efb1dc60ef78f7210886cc892d666b60a5e44f1c68a6b42e659f43e684",
+      "bytes": 21163,
+      "name": "vesuvius_frame_mesh-0.1.3-py3-none-any.whl",
+      "sha256": "2cb3dee639c0dae54c311876d101f67d3c100c0762f355a6ac678caeb81fcab3",
       "two_builds_identical": true
     }
   },
@@ -21,7 +21,7 @@
   },
   "schema_version": 1,
   "tests": {
-    "passed": 111
+    "passed": 112
   },
-  "version": "0.1.2"
+  "version": "0.1.3"
 }

@@ -1,0 +1,252 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-12T06:58:11.921993+00:00",
+  "code_git_sha": "e04b2de5ce2c66921105b582d95aea0817fdf1cc",
+  "plan_git_sha": "f58915a",
+  "offset_interpretation": "label-derived evaluation alignment burden, not physical registration ground truth",
+  "cases": [
+    {
+      "segment": "20250108000005-w030_2025010818",
+      "native_offset": [
+        4,
+        6
+      ],
+      "wrong_frame_own_best_offset": [
+        6,
+        10
+      ],
+      "primary_auc_delta": 0.028823411587736825,
+      "own_alignment_auc_delta": 0.014556179965837246,
+      "delta_downsampled_pixels_yx": [
+        2,
+        4
+      ],
+      "delta_full_resolution_pixels_yx": [
+        16,
+        32
+      ],
+      "magnitude_full_resolution_pixels": 35.77708763999664,
+      "magnitude_mm": 0.08582923324835193
+    },
+    {
+      "segment": "20250831000000-w040_2025083102",
+      "native_offset": [
+        0,
+        0
+      ],
+      "wrong_frame_own_best_offset": [
+        2,
+        2
+      ],
+      "primary_auc_delta": 0.0033936592912957586,
+      "own_alignment_auc_delta": -0.002374926858678239,
+      "delta_downsampled_pixels_yx": [
+        2,
+        2
+      ],
+      "delta_full_resolution_pixels_yx": [
+        16,
+        16
+      ],
+      "magnitude_full_resolution_pixels": 22.627416997969522,
+      "magnitude_mm": 0.054283173378128886
+    },
+    {
+      "segment": "20260108000000-w041_2026010816",
+      "native_offset": [
+        0,
+        0
+      ],
+      "wrong_frame_own_best_offset": [
+        2,
+        4
+      ],
+      "primary_auc_delta": 0.008097780021582124,
+      "own_alignment_auc_delta": 0.0102012037421505,
+      "delta_downsampled_pixels_yx": [
+        2,
+        4
+      ],
+      "delta_full_resolution_pixels_yx": [
+        16,
+        32
+      ],
+      "magnitude_full_resolution_pixels": 35.77708763999664,
+      "magnitude_mm": 0.08582923324835193
+    },
+    {
+      "segment": "20260112000000-w043_2026011217",
+      "native_offset": [
+        -4,
+        2
+      ],
+      "wrong_frame_own_best_offset": [
+        -6,
+        8
+      ],
+      "primary_auc_delta": 0.014954898618688595,
+      "own_alignment_auc_delta": -0.00783048528787611,
+      "delta_downsampled_pixels_yx": [
+        -2,
+        6
+      ],
+      "delta_full_resolution_pixels_yx": [
+        -16,
+        48
+      ],
+      "magnitude_full_resolution_pixels": 50.59644256269407,
+      "magnitude_mm": 0.12138086570790309
+    },
+    {
+      "segment": "20260115000000-w044_2026011522",
+      "native_offset": [
+        0,
+        0
+      ],
+      "wrong_frame_own_best_offset": [
+        6,
+        6
+      ],
+      "primary_auc_delta": 0.03891985779965512,
+      "own_alignment_auc_delta": -0.007427075504033986,
+      "delta_downsampled_pixels_yx": [
+        6,
+        6
+      ],
+      "delta_full_resolution_pixels_yx": [
+        48,
+        48
+      ],
+      "magnitude_full_resolution_pixels": 67.88225099390856,
+      "magnitude_mm": 0.16284952013438664
+    },
+    {
+      "segment": "20260126000000-w045_2026012619",
+      "native_offset": [
+        -4,
+        -2
+      ],
+      "wrong_frame_own_best_offset": [
+        4,
+        4
+      ],
+      "primary_auc_delta": 0.03768536664843636,
+      "own_alignment_auc_delta": -0.0057470839547901775,
+      "delta_downsampled_pixels_yx": [
+        8,
+        6
+      ],
+      "delta_full_resolution_pixels_yx": [
+        64,
+        48
+      ],
+      "magnitude_full_resolution_pixels": 80.0,
+      "magnitude_mm": 0.19192
+    },
+    {
+      "segment": "20260302000000-w039_2026030210",
+      "native_offset": [
+        6,
+        0
+      ],
+      "wrong_frame_own_best_offset": [
+        8,
+        4
+      ],
+      "primary_auc_delta": -0.004884618158996545,
+      "own_alignment_auc_delta": -0.014747201030914314,
+      "delta_downsampled_pixels_yx": [
+        2,
+        4
+      ],
+      "delta_full_resolution_pixels_yx": [
+        16,
+        32
+      ],
+      "magnitude_full_resolution_pixels": 35.77708763999664,
+      "magnitude_mm": 0.08582923324835193
+    },
+    {
+      "segment": "20260317000000-w035_2026031718",
+      "native_offset": [
+        0,
+        0
+      ],
+      "wrong_frame_own_best_offset": [
+        6,
+        4
+      ],
+      "primary_auc_delta": 0.020614438777510458,
+      "own_alignment_auc_delta": 0.027211218495591605,
+      "delta_downsampled_pixels_yx": [
+        6,
+        4
+      ],
+      "delta_full_resolution_pixels_yx": [
+        48,
+        32
+      ],
+      "magnitude_full_resolution_pixels": 57.688820407423826,
+      "magnitude_mm": 0.13839548015740977
+    }
+  ],
+  "summary": {
+    "mean_magnitude_mm": 0.11578959239036052,
+    "median_magnitude_mm": 0.10360504947812751,
+    "minimum_magnitude_mm": 0.054283173378128886,
+    "maximum_magnitude_mm": 0.19192,
+    "pearson_r_magnitude_vs_primary_delta": 0.7865351876397768,
+    "pearson_p_two_sided": 0.020590512894180072,
+    "spearman_rho_magnitude_vs_primary_delta": 0.7807200583588266,
+    "spearman_p_two_sided": 0.022214514665634257
+  },
+  "case_studies": [
+    {
+      "segment": "20260115000000-w044_2026011522",
+      "selection_reason": "largest positive primary AUC delta",
+      "crop_yx": [
+        232,
+        2046
+      ],
+      "crop_size": 512,
+      "prediction_scale_percentiles": [
+        0.12050625897943973,
+        0.9532780116796493
+      ],
+      "delta_downsampled_pixels_yx": [
+        6,
+        6
+      ],
+      "delta_full_resolution_pixels_yx": [
+        48,
+        48
+      ],
+      "magnitude_full_resolution_pixels": 67.88225099390856,
+      "magnitude_mm": 0.16284952013438664
+    },
+    {
+      "segment": "20260302000000-w039_2026030210",
+      "selection_reason": "only negative primary AUC delta",
+      "crop_yx": [
+        171,
+        1246
+      ],
+      "crop_size": 512,
+      "prediction_scale_percentiles": [
+        0.11962524428963661,
+        0.9417502421140671
+      ],
+      "delta_downsampled_pixels_yx": [
+        2,
+        4
+      ],
+      "delta_full_resolution_pixels_yx": [
+        16,
+        32
+      ],
+      "magnitude_full_resolution_pixels": 35.77708763999664,
+      "magnitude_mm": 0.08582923324835193
+    }
+  ],
+  "figure": "artifacts/frame_resolver_case_studies.png"
+}

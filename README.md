@@ -26,7 +26,7 @@ An offline wheel can also be built with `uv`:
 ```bash
 SOURCE_DATE_EPOCH=1791619200 uv build --offline --no-build-isolation
 python -m pip install --no-index --no-deps \
-  dist/vesuvius_frame_mesh-0.1.2-py3-none-any.whl
+  dist/vesuvius_frame_mesh-0.1.3-py3-none-any.whl
 ```
 
 ## Resolve one surface volume
@@ -117,7 +117,7 @@ scrolls:
 | producer disagreements | 0 |
 | installed-command full-corpus replay | 650/650, exact selections |
 | fresh live drift comparison | 0 added, removed, or changed rows |
-| clean release-repository suite | 111 passing tests |
+| clean release-repository suite | 112 passing tests |
 | full development harness | 196 passing tests |
 
 On the externally defined w029 case from Villa issue
@@ -127,6 +127,18 @@ scores AUC 0.89615, versus 0.86069 for the coarse-frame reproduction carried
 through a transform: +0.03546 on that one benchmark. The benchmark, checkpoint,
 labels, and original accuracy finding are prior work; this repository adds the
 deterministic selection and validation preflight.
+
+A separately preregistered paired test then used all eight existing labelled
+PHerc0139 C2 windows. With the same target CT, renderer, model, and canvas in
+both arms, choosing the native-frame mesh improved mean fixed-canvas AUC by
+**+0.01845**; 7/8 cases were positive and the deterministic segment-bootstrap
+95% interval was [+0.00823, +0.02872]. All 36 locked alignment-grid and label-
+mask sensitivity configurations retained the original GO decision.
+
+The result is principally spatial: when the wrong-frame arm was allowed its own
+label-selected alignment, the mean advantage fell to +0.00173 AUC. The resolver
+prevents an avoidable placement error; it is not claimed to improve intrinsic
+ink features after label-assisted registration.
 
 See [docs/EVIDENCE.md](docs/EVIDENCE.md) for hashes, reproduction commands,
 claim limits, and links to the raw metadata evidence.
@@ -150,7 +162,7 @@ python -m pytest -q
 The tests use local HTTP fixtures and do not download CT or mesh bodies.
 
 For the complete release gate (two deterministic builds, temporary wheel
-installation, 111 tests, and exact 650-case evidence replay), install `uv` and
+installation, 112 tests, and exact 650-case evidence replay), install `uv` and
 run:
 
 ```bash
@@ -164,8 +176,11 @@ The command caps numerical libraries at two threads and writes
 
 - The 650/650 result covers the audited public corpus snapshot, not every
   historical renderer invocation or future publisher convention.
-- The w029 AUC result is one external benchmark, not a multi-segment accuracy
-  improvement.
+- The w029 AUC result remains one external issue-defined benchmark. The newer
+  eight-case result is a preregistered fixed-canvas comparison on the existing
+  labelled C2 set, not a claim about every scroll or checkpoint.
+- Independently realigning the wrong-frame prediction reduces its mean deficit
+  to +0.00173 AUC; the demonstrated benefit is chiefly spatial placement.
 - The tool verifies public frame and canvas provenance. It does not assess mesh
   geometry, transforms, depth seating, or ink-model quality.
 - The `-on-<volume-id>-` convention is cross-checked against canvas geometry.

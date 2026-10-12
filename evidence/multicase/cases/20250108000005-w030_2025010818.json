@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "generated_at_utc": "2026-10-12T04:12:42.595196+00:00",
+  "code_git_sha": "2fd812267994b0a8b87ce6a8d780fba479cfc1a9",
+  "preregistration_git_sha": "01c0da224da345bbde915ab874abbf6584753464",
+  "segment": "20250108000005-w030_2025010818",
+  "window_cells": [
+    580,
+    640,
+    794,
+    964
+  ],
+  "primary_alignment": "native offset reused for both arms",
+  "native": {
+    "auc": 0.9306983741645936,
+    "offset": [
+      4,
+      6
+    ],
+    "positive_pixels": 22690,
+    "negative_pixels": 40512,
+    "label_fraction": 0.355921568627451,
+    "alignment_correlation": 0.703862726688385
+  },
+  "wrong_frame_shared_alignment": {
+    "auc": 0.9018749625768567,
+    "offset": [
+      4,
+      6
+    ],
+    "positive_pixels": 22690,
+    "negative_pixels": 40512,
+    "label_fraction": 0.355921568627451
+  },
+  "wrong_frame_best_alignment": {
+    "auc": 0.9161421941987563,
+    "offset": [
+      6,
+      10
+    ],
+    "positive_pixels": 22509,
+    "negative_pixels": 40695,
+    "label_fraction": 0.35308235294117646,
+    "alignment_correlation": 0.6722623705863953
+  },
+  "paired_auc_delta": 0.028823411587736825,
+  "paired_auc_delta_vs_wrong_best": 0.014556179965837246,
+  "sha256": {
+    "native_ink": "2d949c0d55b55483d1d058cdb67d31d39ce4f604cbb7ce7c56e45c1890b04c37",
+    "wrong_frame_ink": "d673f8ac194fed32fbe68bc4962113b7be01e4704983d64c9a0861fe6ec00a90"
+  }
+}
