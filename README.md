@@ -169,7 +169,7 @@ run:
 python scripts/verify_release.py
 ```
 
-The command caps numerical libraries at two threads and writes
+The command caps numerical libraries at one thread and writes
 `release_verification.json`, `dist/`, and refreshed `SHA256SUMS`.
 
 ## Limits

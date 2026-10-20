@@ -68,11 +68,11 @@ def main() -> int:
             "SOURCE_DATE_EPOCH": "1791619200",
             "PYTHONDONTWRITEBYTECODE": "1",
             "PYTHONPATH": "src",
-            "OMP_NUM_THREADS": "2",
-            "OPENBLAS_NUM_THREADS": "2",
-            "MKL_NUM_THREADS": "2",
-            "VECLIB_MAXIMUM_THREADS": "2",
-            "NUMEXPR_NUM_THREADS": "2",
+            "OMP_NUM_THREADS": "1",
+            "OPENBLAS_NUM_THREADS": "1",
+            "MKL_NUM_THREADS": "1",
+            "VECLIB_MAXIMUM_THREADS": "1",
+            "NUMEXPR_NUM_THREADS": "1",
         }
     )
     with tempfile.TemporaryDirectory(prefix="vesuvius-frame-public-") as tmp_name:
