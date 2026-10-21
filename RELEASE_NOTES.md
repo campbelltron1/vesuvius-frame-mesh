@@ -12,13 +12,18 @@ Highlights:
 - complete case JSON and prediction hashes;
 - displacement table plus disclosed, outcome-selected explanatory panels; and
 - an explicit bound: after separate label-assisted alignment, the mean AUC
-  advantage is only +0.00173.
+  advantage is only +0.00173;
+- a disjoint, frozen 42/42 compatibility extension on PHerc0009B and
+  PHerc0841, bringing total tested selections to 692 across 11 sample names;
+  and
+- an explicit relationship note for the complementary public TIFFXYZ
+  canvas-map work.
 
 The clean release repository now passes 112 tests. The supplied release
 verifier builds twice, installs the wheel into a temporary environment,
 exercises both commands, exact-compares the frozen 650-case metadata replay,
-and verifies the packaged multi-case evidence. Resolver runtime code is
-unchanged from v0.1.2.
+verifies the disjoint 42-case extension, and verifies the packaged multi-case
+evidence. Resolver runtime code is unchanged from v0.1.2.
 
 ## v0.1.2 — initial public release
 

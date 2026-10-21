@@ -66,6 +66,7 @@ def main() -> int:
     env.update(
         {
             "SOURCE_DATE_EPOCH": "1791619200",
+            "UV_PYTHON": sys.executable,
             "PYTHONDONTWRITEBYTECODE": "1",
             "PYTHONPATH": "src",
             "OMP_NUM_THREADS": "1",
@@ -170,6 +171,20 @@ def main() -> int:
         if replay.read_bytes() != frozen.read_bytes():
             raise RuntimeError("independent 650-row verification changed")
 
+        extension_output = run(
+            [sys.executable, "scripts/verify_extension_evidence.py"], env=env
+        )
+        extension = json.loads(extension_output)
+        if (
+            extension.get("decision") != "GO"
+            or extension.get("primary_cases") != 650
+            or extension.get("extension_cases") != 42
+            or extension.get("combined_cases") != 692
+            or extension.get("extension_primary_overlap") != 0
+            or extension.get("exact_expected_selections") != 42
+        ):
+            raise RuntimeError("42-case extension evidence changed")
+
         dist = ROOT / "dist"
         dist.mkdir(exist_ok=True)
         shutil.copy2(build_a / wheel_name, dist / wheel_name)
@@ -189,6 +204,7 @@ def main() -> int:
                 "comparison": "EXACT",
                 "sha256": sha256(replay),
             },
+            "disjoint_extension": extension,
             "artifacts": {
                 "wheel": {
                     "name": wheel_name,

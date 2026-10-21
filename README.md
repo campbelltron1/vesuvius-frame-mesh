@@ -108,14 +108,17 @@ A mesh is returned only when exactly one candidate passes every check.
 
 ## Evidence
 
-The frozen 2026-10-10 audit covers 650 public surface volumes across nine
-scrolls:
+The frozen 2026-10-10 primary audit covers 650 public surface volumes across
+nine sample names. A separately frozen extension adds 42 disjoint selections
+from PHerc0009B and PHerc0841:
 
 | check | result |
 |---|---:|
 | independent metadata implementation | 650/650 uniquely resolved |
 | producer disagreements | 0 |
 | installed-command full-corpus replay | 650/650, exact selections |
+| disjoint extension | 42/42 exact frozen selections |
+| combined tested selections | 692 across 11 sample names |
 | fresh live drift comparison | 0 added, removed, or changed rows |
 | clean release-repository suite | 112 passing tests |
 | full development harness | 196 passing tests |
@@ -140,8 +143,9 @@ label-selected alignment, the mean advantage fell to +0.00173 AUC. The resolver
 prevents an avoidable placement error; it is not claimed to improve intrinsic
 ink features after label-assisted registration.
 
-See [docs/EVIDENCE.md](docs/EVIDENCE.md) for hashes, reproduction commands,
-claim limits, and links to the raw metadata evidence.
+See [docs/EVIDENCE.md](docs/EVIDENCE.md) and
+[docs/EXTENSION_RESULT.md](docs/EXTENSION_RESULT.md) for hashes, reproduction
+commands, claim limits, and links to the raw metadata evidence.
 
 ## Relationship to Villa PR #1944
 
@@ -176,6 +180,8 @@ The command caps numerical libraries at one thread and writes
 
 - The 650/650 result covers the audited public corpus snapshot, not every
   historical renderer invocation or future publisher convention.
+- The 42/42 extension is a disjoint compatibility check against frozen
+  completed outputs, not a second independent implementation or live replay.
 - The w029 AUC result remains one external issue-defined benchmark. The newer
   eight-case result is a preregistered fixed-canvas comparison on the existing
   labelled C2 set, not a claim about every scroll or checkpoint.

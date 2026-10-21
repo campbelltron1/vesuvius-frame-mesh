@@ -23,6 +23,18 @@ independent mesh for 650/650 cases. It downloaded 6,322,009 metadata bytes in
 5,833 requests under a 250 MiB gate. This is reliability evidence, not a
 concurrency speed claim.
 
+## Disjoint corpus extension
+
+A separately frozen 2026-10-14 run covers 42 additional surface-volume
+identities from PHerc0009B (36) and PHerc0841 (6). All 42 resolved uniquely and
+matched expectations frozen before the completed output was checked. None of
+the extension identities occurs in the 650-case primary audit, giving 692
+tested selections across 11 sample names.
+
+This is a compatibility extension, not a second independent implementation.
+See [EXTENSION_RESULT.md](EXTENSION_RESULT.md) for exact hashes, checks, and
+claim limits.
+
 ## One external accuracy consequence
 
 For PHerc0139 segment `20250108000004-w029_2025010827` and surface volume
@@ -87,6 +99,8 @@ cmp evidence/results/J1_volume_frame_independent_verification.json \
 - `evidence/results/N3_installed_native_full_corpus_replay.json`
 - `evidence/results/K4_corpus_drift_result.json`
 - `evidence/results/G_volume_frame_mesh_20261010.json`
+- `evidence/extension/HP7_extension_expectations.json`
+- `evidence/extension/HP7_extension_result.json`
 - `evidence/multicase/frame_resolver_multicase.json`
 - `evidence/multicase/frame_resolver_sensitivity.json`
 - `evidence/multicase/frame_resolver_displacement.json`
@@ -97,6 +111,8 @@ cmp evidence/results/J1_volume_frame_independent_verification.json \
 ## Claim limits
 
 - The public corpus can change after the snapshot.
+- The 42-case extension verifies frozen completed outputs and is not a fresh
+  live-network replay.
 - The naming convention is treated as evidence only after canvas verification.
 - A result of `resolved` means the public metadata identifies one same-frame
   mesh; it is not a physical accuracy guarantee.
