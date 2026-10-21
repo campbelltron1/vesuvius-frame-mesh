@@ -1,0 +1,2601 @@
+{
+  "cases": [
+    {
+      "id": "PHerc0009B/segments/20250510172639/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 14213,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250510172639-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250510172639/mesh/20250510172639-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              18520,
+              14760
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              926,
+              738
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250510172639",
+        "selected_mesh": "20250510172639-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250510172639/mesh/20250510172639-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            18520,
+            14760
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            18520,
+            14760
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250510172639",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250510172639/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4098,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250510172639-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250510172639/mesh/20250510172639-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              5140,
+              4100
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              257,
+              205
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250510172639",
+        "selected_mesh": "20250510172639-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250510172639/mesh/20250510172639-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            5140,
+            4100
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            5140,
+            4100
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250510172639",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250510172804/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 14208,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250510172804-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250510172804/mesh/20250510172804-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              14680,
+              21240
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              734,
+              1062
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250510172804",
+        "selected_mesh": "20250510172804-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250510172804/mesh/20250510172804-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            14680,
+            21240
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            14680,
+            21240
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250510172804",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250510172804/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4096,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250510172804-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250510172804/mesh/20250510172804-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              4080,
+              5900
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              204,
+              295
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250510172804",
+        "selected_mesh": "20250510172804-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250510172804/mesh/20250510172804-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            4080,
+            5900
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            4080,
+            5900
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250510172804",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250511200236/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 14209,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250511200236-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250511200236/mesh/20250511200236-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              14980,
+              14460
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              749,
+              723
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250511200236",
+        "selected_mesh": "20250511200236-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250511200236/mesh/20250511200236-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            14980,
+            14460
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            14980,
+            14460
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250511200236",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250511200236/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4099,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250511200236-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250511200236/mesh/20250511200236-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              4160,
+              4020
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              208,
+              201
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250511200236",
+        "selected_mesh": "20250511200236-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250511200236/mesh/20250511200236-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            4160,
+            4020
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            4160,
+            4020
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250511200236",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15170,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919064353-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791/mesh/20250919064353-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              24200,
+              20880
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1210,
+              1044
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791",
+        "selected_mesh": "20250919064353-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791/mesh/20250919064353-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            24200,
+            20880
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            24200,
+            20880
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4100,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919064353-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791/mesh/20250919064353-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              6720,
+              5800
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              336,
+              290
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791",
+        "selected_mesh": "20250919064353-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791/mesh/20250919064353-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            6720,
+            5800
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            6720,
+            5800
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919064353-auto_grown_20250918234353791",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15406,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919123506-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr/mesh/20250919123506-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              26140,
+              20360
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1307,
+              1018
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr",
+        "selected_mesh": "20250919123506-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr/mesh/20250919123506-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            26140,
+            20360
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            26140,
+            20360
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4096,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919123506-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr/mesh/20250919123506-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7260,
+              5660
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              363,
+              283
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr",
+        "selected_mesh": "20250919123506-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr/mesh/20250919123506-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7260,
+            5660
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7260,
+            5660
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919123506-auto_grown_20250919053506178_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15401,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919124722-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr/mesh/20250919124722-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              26360,
+              18000
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1318,
+              900
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr",
+        "selected_mesh": "20250919124722-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr/mesh/20250919124722-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            26360,
+            18000
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            26360,
+            18000
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4086,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919124722-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr/mesh/20250919124722-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7320,
+              5000
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              366,
+              250
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr",
+        "selected_mesh": "20250919124722-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr/mesh/20250919124722-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7320,
+            5000
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7320,
+            5000
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919124722-auto_grown_20250919054722721_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15399,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919124917-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr/mesh/20250919124917-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              25200,
+              13600
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1260,
+              680
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr",
+        "selected_mesh": "20250919124917-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr/mesh/20250919124917-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            25200,
+            13600
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            25200,
+            13600
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4097,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919124917-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr/mesh/20250919124917-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7000,
+              3780
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              350,
+              189
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr",
+        "selected_mesh": "20250919124917-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr/mesh/20250919124917-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7000,
+            3780
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7000,
+            3780
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919124917-auto_grown_20250919054917419_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15173,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919125302-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061/mesh/20250919125302-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              22260,
+              18580
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1113,
+              929
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061",
+        "selected_mesh": "20250919125302-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061/mesh/20250919125302-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            22260,
+            18580
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            22260,
+            18580
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4089,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919125302-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061/mesh/20250919125302-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              6180,
+              5160
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              309,
+              258
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061",
+        "selected_mesh": "20250919125302-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061/mesh/20250919125302-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            6180,
+            5160
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            6180,
+            5160
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919125302-auto_grown_20250919055302061",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15174,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919125605-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407/mesh/20250919125605-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              25060,
+              20660
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1253,
+              1033
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407",
+        "selected_mesh": "20250919125605-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407/mesh/20250919125605-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            25060,
+            20660
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            25060,
+            20660
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4092,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919125605-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407/mesh/20250919125605-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              6960,
+              5740
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              348,
+              287
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407",
+        "selected_mesh": "20250919125605-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407/mesh/20250919125605-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            6960,
+            5740
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            6960,
+            5740
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919125605-auto_grown_20250919055605407",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15401,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919125754-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              25360,
+              20520
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1268,
+              1026
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr",
+        "selected_mesh": "20250919125754-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            25360,
+            20520
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            25360,
+            20520
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4097,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919125754-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7040,
+              5700
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              352,
+              285
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr",
+        "selected_mesh": "20250919125754-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr/mesh/20250919125754-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7040,
+            5700
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7040,
+            5700
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919125754-auto_grown_20250919055754487_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15171,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919130642-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061/mesh/20250919130642-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              25860,
+              18940
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1293,
+              947
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061",
+        "selected_mesh": "20250919130642-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061/mesh/20250919130642-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            25860,
+            18940
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            25860,
+            18940
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4096,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919130642-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061/mesh/20250919130642-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7180,
+              5260
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              359,
+              263
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061",
+        "selected_mesh": "20250919130642-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061/mesh/20250919130642-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7180,
+            5260
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7180,
+            5260
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919130642-auto_grown_20250919060642061",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15397,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919131352-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr/mesh/20250919131352-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              27520,
+              20520
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1376,
+              1026
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr",
+        "selected_mesh": "20250919131352-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr/mesh/20250919131352-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            27520,
+            20520
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            27520,
+            20520
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4096,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919131352-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr/mesh/20250919131352-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7640,
+              5700
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              382,
+              285
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr",
+        "selected_mesh": "20250919131352-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr/mesh/20250919131352-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7640,
+            5700
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7640,
+            5700
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919131352-auto_grown_20250919061352722_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15395,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919131642-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr/mesh/20250919131642-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              23700,
+              13020
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1185,
+              651
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr",
+        "selected_mesh": "20250919131642-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr/mesh/20250919131642-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            23700,
+            13020
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            23700,
+            13020
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4098,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919131642-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr/mesh/20250919131642-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              6580,
+              3620
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              329,
+              181
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr",
+        "selected_mesh": "20250919131642-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr/mesh/20250919131642-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            6580,
+            3620
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            6580,
+            3620
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919131642-auto_grown_20250919061642215_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15398,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919132115-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr/mesh/20250919132115-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              26060,
+              23620
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1303,
+              1181
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr",
+        "selected_mesh": "20250919132115-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr/mesh/20250919132115-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            26060,
+            23620
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            26060,
+            23620
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4097,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919132115-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr/mesh/20250919132115-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7240,
+              6560
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              362,
+              328
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr",
+        "selected_mesh": "20250919132115-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr/mesh/20250919132115-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7240,
+            6560
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7240,
+            6560
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919132115-auto_grown_20250919062115592_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15402,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919133208-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr/mesh/20250919133208-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              24560,
+              18060
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1228,
+              903
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr",
+        "selected_mesh": "20250919133208-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr/mesh/20250919133208-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            24560,
+            18060
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            24560,
+            18060
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4097,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919133208-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr/mesh/20250919133208-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              6820,
+              5020
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              341,
+              251
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr",
+        "selected_mesh": "20250919133208-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr/mesh/20250919133208-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            6820,
+            5020
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            6820,
+            5020
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919133208-auto_grown_20250919063208154_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15403,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919135433-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr/mesh/20250919135433-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              25360,
+              24760
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1268,
+              1238
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr",
+        "selected_mesh": "20250919135433-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr/mesh/20250919135433-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            25360,
+            24760
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            25360,
+            24760
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4100,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919135433-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr/mesh/20250919135433-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7040,
+              6880
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              352,
+              344
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr",
+        "selected_mesh": "20250919135433-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr/mesh/20250919135433-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7040,
+            6880
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7040,
+            6880
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919135433-auto_grown_20250919065433578_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15401,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919135915-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr/mesh/20250919135915-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              23700,
+              19360
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1185,
+              968
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr",
+        "selected_mesh": "20250919135915-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr/mesh/20250919135915-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            23700,
+            19360
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            23700,
+            19360
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4100,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919135915-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr/mesh/20250919135915-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              6580,
+              5380
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              329,
+              269
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr",
+        "selected_mesh": "20250919135915-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr/mesh/20250919135915-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            6580,
+            5380
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            6580,
+            5380
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919135915-auto_grown_20250919065915092_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr/surface-volumes/2.401um-0.35m-77keV-volume-20250820154339.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15399,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919140325-on-20250820154339-2.401um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr/mesh/20250919140325-on-20250820154339-2.401um.tifxyz",
+            "predicted_canvas": [
+              25700,
+              17000
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              1285,
+              850
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr",
+        "selected_mesh": "20250919140325-on-20250820154339-2.401um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr/mesh/20250919140325-on-20250820154339-2.401um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            25700,
+            17000
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            25700,
+            17000
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.401um-0.35m-77keV-volume-20250820154339.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250820154339"
+      },
+      "segment_input": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr",
+      "surface_volume_input": "2.401um-0.35m-77keV-volume-20250820154339.zarr"
+    },
+    {
+      "id": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr/surface-volumes/8.64um-1.2m-116keV-volume-20250521125136.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4095,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20250919140325-on-20250521125136-8.64um.tifxyz",
+            "mesh_key": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr/mesh/20250919140325-on-20250521125136-8.64um.tifxyz",
+            "predicted_canvas": [
+              7140,
+              4720
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              357,
+              236
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr",
+        "selected_mesh": "20250919140325-on-20250521125136-8.64um.tifxyz",
+        "selected_mesh_key": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr/mesh/20250919140325-on-20250521125136-8.64um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            7140,
+            4720
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            31,
+            7140,
+            4720
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "8.64um-1.2m-116keV-volume-20250521125136.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250521125136"
+      },
+      "segment_input": "PHerc0009B/segments/20250919140325-auto_grown_20250919070325767_inp_hr",
+      "surface_volume_input": "8.64um-1.2m-116keV-volume-20250521125136.zarr"
+    },
+    {
+      "id": "PHerc0841/segments/20260220213127-w00/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 14320,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20260220213127-on-20260319124803-2.403um.tifxyz",
+            "mesh_key": "PHerc0841/segments/20260220213127-w00/mesh/20260220213127-on-20260319124803-2.403um.tifxyz",
+            "predicted_canvas": [
+              16460,
+              18560
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              823,
+              928
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0841/segments/20260220213127-w00",
+        "selected_mesh": "20260220213127-on-20260319124803-2.403um.tifxyz",
+        "selected_mesh_key": "PHerc0841/segments/20260220213127-w00/mesh/20260220213127-on-20260319124803-2.403um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            16460,
+            18560
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            16460,
+            18560
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.403um-0.22m-77keV-volume-20260319124803.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20260319124803"
+      },
+      "segment_input": "PHerc0841/segments/20260220213127-w00",
+      "surface_volume_input": "2.403um-0.22m-77keV-volume-20260319124803.zarr"
+    },
+    {
+      "id": "PHerc0841/segments/20260220213127-w00/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4122,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20260220213127-on-20250821151531-9.366um.tifxyz",
+            "mesh_key": "PHerc0841/segments/20260220213127-w00/mesh/20260220213127-on-20250821151531-9.366um.tifxyz",
+            "predicted_canvas": [
+              4220,
+              4760
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              211,
+              238
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0841/segments/20260220213127-w00",
+        "selected_mesh": "20260220213127-on-20250821151531-9.366um.tifxyz",
+        "selected_mesh_key": "PHerc0841/segments/20260220213127-w00/mesh/20260220213127-on-20250821151531-9.366um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            4220,
+            4760
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            28,
+            4220,
+            4760
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "9.366um-1.2m-113keV-volume-20250821151531.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250821151531"
+      },
+      "segment_input": "PHerc0841/segments/20260220213127-w00",
+      "surface_volume_input": "9.366um-1.2m-113keV-volume-20250821151531.zarr"
+    },
+    {
+      "id": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15136,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20260220214732-on-20260319124803-2.403um.tifxyz",
+            "mesh_key": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/mesh/20260220214732-on-20260319124803-2.403um.tifxyz",
+            "predicted_canvas": [
+              18080,
+              18400
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              904,
+              920
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896",
+        "selected_mesh": "20260220214732-on-20260319124803-2.403um.tifxyz",
+        "selected_mesh_key": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/mesh/20260220214732-on-20260319124803-2.403um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            18080,
+            18400
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            18080,
+            18400
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.403um-0.22m-77keV-volume-20260319124803.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20260319124803"
+      },
+      "segment_input": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896",
+      "surface_volume_input": "2.403um-0.22m-77keV-volume-20260319124803.zarr"
+    },
+    {
+      "id": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4132,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20260220214732-on-20250821151531-9.366um.tifxyz",
+            "mesh_key": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/mesh/20260220214732-on-20250821151531-9.366um.tifxyz",
+            "predicted_canvas": [
+              4640,
+              4720
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              232,
+              236
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896",
+        "selected_mesh": "20260220214732-on-20250821151531-9.366um.tifxyz",
+        "selected_mesh_key": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896/mesh/20260220214732-on-20250821151531-9.366um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            4640,
+            4720
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            28,
+            4640,
+            4720
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "9.366um-1.2m-113keV-volume-20250821151531.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250821151531"
+      },
+      "segment_input": "PHerc0841/segments/20260220214732-auto_grown_20260220144552896",
+      "surface_volume_input": "9.366um-1.2m-113keV-volume-20250821151531.zarr"
+    },
+    {
+      "id": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/surface-volumes/2.403um-0.22m-77keV-volume-20260319124803.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 15145,
+        "request_count": 12
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20260221022814-on-20260319124803-2.403um.tifxyz",
+            "mesh_key": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/mesh/20260221022814-on-20260319124803-2.403um.tifxyz",
+            "predicted_canvas": [
+              14660,
+              19100
+            ],
+            "scale": [
+              0.05000000074505806,
+              0.05000000074505806
+            ],
+            "stored_shape": [
+              733,
+              955
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405",
+        "selected_mesh": "20260221022814-on-20260319124803-2.403um.tifxyz",
+        "selected_mesh_key": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/mesh/20260221022814-on-20260319124803-2.403um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            14660,
+            19100
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            109,
+            14660,
+            19100
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "2.403um-0.22m-77keV-volume-20260319124803.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20260319124803"
+      },
+      "segment_input": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405",
+      "surface_volume_input": "2.403um-0.22m-77keV-volume-20260319124803.zarr"
+    },
+    {
+      "id": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/surface-volumes/9.366um-1.2m-113keV-volume-20250821151531.zarr",
+      "network": {
+        "cache_hit_bytes": 0,
+        "cache_hit_count": 0,
+        "cache_invalid_bytes": 0,
+        "cache_invalid_count": 0,
+        "downloaded_bytes": 4124,
+        "request_count": 6
+      },
+      "result": {
+        "candidates": [
+          {
+            "matches_canvas": true,
+            "mesh": "20260221022814-on-20250821151531-9.366um.tifxyz",
+            "mesh_key": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/mesh/20260221022814-on-20250821151531-9.366um.tifxyz",
+            "predicted_canvas": [
+              3760,
+              4900
+            ],
+            "scale": [
+              0.05,
+              0.05
+            ],
+            "stored_shape": [
+              188,
+              245
+            ]
+          }
+        ],
+        "named_candidate_count": 1,
+        "schema_version": 1,
+        "segment": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405",
+        "selected_mesh": "20260221022814-on-20250821151531-9.366um.tifxyz",
+        "selected_mesh_key": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405/mesh/20260221022814-on-20250821151531-9.366um.tifxyz",
+        "selection_signals": [
+          "volume_id",
+          "canvas_compatibility"
+        ],
+        "selection_uses_labels": false,
+        "status": "resolved",
+        "surface": {
+          "declared_canvas": [
+            3760,
+            4900
+          ],
+          "ds_scale": 1.0,
+          "level0_shape": [
+            28,
+            3760,
+            4900
+          ],
+          "source_group": 0
+        },
+        "surface_volume": "9.366um-1.2m-113keV-volume-20250821151531.zarr",
+        "valid_candidate_count": 1,
+        "volume_id": "20250821151531"
+      },
+      "segment_input": "PHerc0841/segments/20260221022814-auto_grown_20260220174252405",
+      "surface_volume_input": "9.366um-1.2m-113keV-volume-20250821151531.zarr"
+    }
+  ],
+  "method": "one-process bounded label-free volume-frame mesh resolution",
+  "plan": {
+    "bytes": 12959,
+    "name": "HP7_extension_plan.json",
+    "sha256": "8cda730fa984c7a77a9637196344446c0a34365b7510e235215475595278f07b"
+  },
+  "schema_version": 1,
+  "selection_uses_labels": false,
+  "summary": {
+    "budget_bytes": 67108864,
+    "cache_hit_bytes": 0,
+    "cache_hit_count": 0,
+    "cache_invalid_bytes": 0,
+    "cache_invalid_count": 0,
+    "cases": 42,
+    "current_invocation_cases": 42,
+    "decision": "GO",
+    "downloaded_bytes": 403428,
+    "mesh_directory_cache_entries": 21,
+    "prior_case_network": {
+      "cache_hit_bytes": 0,
+      "cache_hit_count": 0,
+      "cache_invalid_bytes": 0,
+      "cache_invalid_count": 0,
+      "downloaded_bytes": 0,
+      "request_count": 0
+    },
+    "request_count": 378,
+    "resumed_cases": 0,
+    "status_counts": {
+      "resolved": 42
+    },
+    "workers_requested": 2,
+    "workers_used": 2
+  }
+}

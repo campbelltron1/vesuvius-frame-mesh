@@ -14,7 +14,7 @@ import tempfile
 
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = "0.1.2"
+VERSION = "0.1.3"
 ARTIFACT = f"vesuvius_frame_mesh-{VERSION}"
 
 
@@ -66,13 +66,14 @@ def main() -> int:
     env.update(
         {
             "SOURCE_DATE_EPOCH": "1791619200",
+            "UV_PYTHON": sys.executable,
             "PYTHONDONTWRITEBYTECODE": "1",
             "PYTHONPATH": "src",
-            "OMP_NUM_THREADS": "2",
-            "OPENBLAS_NUM_THREADS": "2",
-            "MKL_NUM_THREADS": "2",
-            "VECLIB_MAXIMUM_THREADS": "2",
-            "NUMEXPR_NUM_THREADS": "2",
+            "OMP_NUM_THREADS": "1",
+            "OPENBLAS_NUM_THREADS": "1",
+            "MKL_NUM_THREADS": "1",
+            "VECLIB_MAXIMUM_THREADS": "1",
+            "NUMEXPR_NUM_THREADS": "1",
         }
     )
     with tempfile.TemporaryDirectory(prefix="vesuvius-frame-public-") as tmp_name:
@@ -150,7 +151,7 @@ def main() -> int:
             [sys.executable, "-m", "pytest", "-q", "-p", "no:cacheprovider", "tests"],
             env=test_env,
         )
-        if "111 passed" not in test_output:
+        if "112 passed" not in test_output:
             raise RuntimeError("unexpected exported test count")
 
         replay = tmp / "independent-verification.json"
@@ -170,6 +171,20 @@ def main() -> int:
         if replay.read_bytes() != frozen.read_bytes():
             raise RuntimeError("independent 650-row verification changed")
 
+        extension_output = run(
+            [sys.executable, "scripts/verify_extension_evidence.py"], env=env
+        )
+        extension = json.loads(extension_output)
+        if (
+            extension.get("decision") != "GO"
+            or extension.get("primary_cases") != 650
+            or extension.get("extension_cases") != 42
+            or extension.get("combined_cases") != 692
+            or extension.get("extension_primary_overlap") != 0
+            or extension.get("exact_expected_selections") != 42
+        ):
+            raise RuntimeError("42-case extension evidence changed")
+
         dist = ROOT / "dist"
         dist.mkdir(exist_ok=True)
         shutil.copy2(build_a / wheel_name, dist / wheel_name)
@@ -183,12 +198,13 @@ def main() -> int:
             "schema_version": 1,
             "decision": "GO",
             "version": VERSION,
-            "tests": {"passed": 111},
+            "tests": {"passed": 112},
             "independent_corpus": {
                 "cases": 650,
                 "comparison": "EXACT",
                 "sha256": sha256(replay),
             },
+            "disjoint_extension": extension,
             "artifacts": {
                 "wheel": {
                     "name": wheel_name,

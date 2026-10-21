@@ -26,7 +26,7 @@ An offline wheel can also be built with `uv`:
 ```bash
 SOURCE_DATE_EPOCH=1791619200 uv build --offline --no-build-isolation
 python -m pip install --no-index --no-deps \
-  dist/vesuvius_frame_mesh-0.1.2-py3-none-any.whl
+  dist/vesuvius_frame_mesh-0.1.3-py3-none-any.whl
 ```
 
 ## Resolve one surface volume
@@ -108,16 +108,19 @@ A mesh is returned only when exactly one candidate passes every check.
 
 ## Evidence
 
-The frozen 2026-10-10 audit covers 650 public surface volumes across nine
-scrolls:
+The frozen 2026-10-10 primary audit covers 650 public surface volumes across
+nine sample names. A separately frozen extension adds 42 disjoint selections
+from PHerc0009B and PHerc0841:
 
 | check | result |
 |---|---:|
 | independent metadata implementation | 650/650 uniquely resolved |
 | producer disagreements | 0 |
 | installed-command full-corpus replay | 650/650, exact selections |
+| disjoint extension | 42/42 exact frozen selections |
+| combined tested selections | 692 across 11 sample names |
 | fresh live drift comparison | 0 added, removed, or changed rows |
-| clean release-repository suite | 111 passing tests |
+| clean release-repository suite | 112 passing tests |
 | full development harness | 196 passing tests |
 
 On the externally defined w029 case from Villa issue
@@ -128,8 +131,21 @@ through a transform: +0.03546 on that one benchmark. The benchmark, checkpoint,
 labels, and original accuracy finding are prior work; this repository adds the
 deterministic selection and validation preflight.
 
-See [docs/EVIDENCE.md](docs/EVIDENCE.md) for hashes, reproduction commands,
-claim limits, and links to the raw metadata evidence.
+A separately preregistered paired test then used all eight existing labelled
+PHerc0139 C2 windows. With the same target CT, renderer, model, and canvas in
+both arms, choosing the native-frame mesh improved mean fixed-canvas AUC by
+**+0.01845**; 7/8 cases were positive and the deterministic segment-bootstrap
+95% interval was [+0.00823, +0.02872]. All 36 locked alignment-grid and label-
+mask sensitivity configurations retained the original GO decision.
+
+The result is principally spatial: when the wrong-frame arm was allowed its own
+label-selected alignment, the mean advantage fell to +0.00173 AUC. The resolver
+prevents an avoidable placement error; it is not claimed to improve intrinsic
+ink features after label-assisted registration.
+
+See [docs/EVIDENCE.md](docs/EVIDENCE.md) and
+[docs/EXTENSION_RESULT.md](docs/EXTENSION_RESULT.md) for hashes, reproduction
+commands, claim limits, and links to the raw metadata evidence.
 
 ## Relationship to Villa PR #1944
 
@@ -150,22 +166,27 @@ python -m pytest -q
 The tests use local HTTP fixtures and do not download CT or mesh bodies.
 
 For the complete release gate (two deterministic builds, temporary wheel
-installation, 111 tests, and exact 650-case evidence replay), install `uv` and
+installation, 112 tests, and exact 650-case evidence replay), install `uv` and
 run:
 
 ```bash
 python scripts/verify_release.py
 ```
 
-The command caps numerical libraries at two threads and writes
+The command caps numerical libraries at one thread and writes
 `release_verification.json`, `dist/`, and refreshed `SHA256SUMS`.
 
 ## Limits
 
 - The 650/650 result covers the audited public corpus snapshot, not every
   historical renderer invocation or future publisher convention.
-- The w029 AUC result is one external benchmark, not a multi-segment accuracy
-  improvement.
+- The 42/42 extension is a disjoint compatibility check against frozen
+  completed outputs, not a second independent implementation or live replay.
+- The w029 AUC result remains one external issue-defined benchmark. The newer
+  eight-case result is a preregistered fixed-canvas comparison on the existing
+  labelled C2 set, not a claim about every scroll or checkpoint.
+- Independently realigning the wrong-frame prediction reduces its mean deficit
+  to +0.00173 AUC; the demonstrated benefit is chiefly spatial placement.
 - The tool verifies public frame and canvas provenance. It does not assess mesh
   geometry, transforms, depth seating, or ink-model quality.
 - The `-on-<volume-id>-` convention is cross-checked against canvas geometry.
@@ -179,7 +200,4 @@ The command caps numerical libraries at two threads and writes
   `@kadenpool`, established the practical ink-reading cost of the wrong-frame
   choice and supplied the benchmark assets. `@nerln` independently reproduced
   its native-frame arm.
-- The resolver, verifier, protocol tests, and release hardening were developed
-  by Ryan Campbell (`@campbelltron1`) with OpenAI Codex assistance.
-
 Released under the MIT License.
